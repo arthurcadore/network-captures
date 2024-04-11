@@ -1,27 +1,14 @@
 {
 	"name": "Capacita-Captures",
 	"image": "mcr.microsoft.com/devcontainers/base:alpine-3.19",
+	"postCreateCommand": "sudo apk add wireshark-common",
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"mbehr1.vsc-webshark",
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"lukaschneider.crumbs",
+				"dracula-theme.theme-dracula"
 			]
 		}
 	}
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
-
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
 }
