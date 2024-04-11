@@ -17,7 +17,7 @@ You also can create a `devcontainer` to explore the repository, the repository h
 
 ![exampleDevcontainer](./.examples/codespace.png)
 
-Once you have access an `.pcap` file, you can click over an packet to see the details of the packet, like the example below:  
+Once you have access an `.pcap` file, you can double-click over an packet to see the details of the packet, like the example below:  
 
 ![exampleReadPacket](./.examples/readpacket.png)
 
