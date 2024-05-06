@@ -1,0 +1,1992 @@
+Jan  9 16:01:26:307 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+Jan  9 16:01:26:308 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+Jan  9 16:01:26:352 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+Jan  9 16:01:26:352 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+Jan  9 16:01:26:352 2021 DEVICE-1 STP/6/STP_DISCARDING: VLAN 100's port Ten-GigabitEthernet1/0/27 has been set to discarding state.
+Jan  9 16:01:26:394 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+Jan  9 16:01:26:399 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+Jan  9 16:01:26:420 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+Jan  9 16:01:26:421 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+Jan  9 16:01:32:752 2021 DEVICE-1 DLDP/3/DLDP_LINK_UNIDIRECTIONAL: DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/29. DLDP automatically blocked the interface.
+Jan  9 16:01:32:758 2021 DEVICE-1 DLDP/6/DLDP_NEIGHBOR_CONFIRMED: A neighbor was confirmed on interface Ten-GigabitEthernet1/0/29. The neighbor's system MAC is 1484-77e2-88f8, and the port index is 1.
+Jan  9 16:01:32:758 2021 DEVICE-1 DLDP/6/DLDP_LINK_BIDIRECTIONAL: DLDP detected a bidirectional link on interface Ten-GigabitEthernet1/0/29.
+Jan  9 16:01:32:771 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+Jan  9 16:01:32:774 2021 DEVICE-1 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/29 (IfIndex 29), neighbor's chassis ID is 1484-77e2-88f8, port ID is Ten-GigabitEthernet1/0/1.
+Jan  9 16:01:32:784 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+Jan  9 16:01:35:183 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+Jan  9 16:01:35:184 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+
+*Jan  9 16:01:52:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: e878-eeef-7d24
+HostPortIndex: 2
+Neighbor information: Not carried
+
+*Jan  9 16:01:52:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:01:52:625 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: 1484-77e2-88f8
+HostPortIndex: 1
+Neighbor information: Not carried
+
+*Jan  9 16:01:53:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: RECOVER-PROBE
+Flags: NO-FLAG
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: e878-eeef-7d24
+HostPortIndex: 1
+Neighbor information: Not carried
+
+*Jan  9 16:01:53:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+*Jan  9 16:01:53:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: e878-eeef-7d24
+HostPortIndex: 2
+Neighbor information: Not carried
+
+*Jan  9 16:01:53:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:01:53:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: 1484-77e2-88f8
+HostPortIndex: 1
+Neighbor information: Not carried
+
+*Jan  9 16:01:54:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: e878-eeef-7d24
+HostPortIndex: 2
+Neighbor information: Not carried
+
+*Jan  9 16:01:54:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:01:54:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: ADVERTISEMENT
+Flags: NO-RSY
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: 1484-77e2-88f8
+HostPortIndex: 1
+Neighbor information: Not carried
+
+*Jan  9 16:01:55:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+DLDP ID: 0x0001
+DLDP version ID: 0x01
+DLDP packet type: RECOVER-PROBE
+Flags: NO-FLAG
+Authentication mode: SIMPLE
+Authentication password: ******
+Interval of sending Advertisement packet: 1 seconds
+HostBridgeMAC: e878-eeef-7d24
+HostPortIndex: 1
+Neighbor information: Not carried
+
+*Jan  9 16:01:55:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+*Jan  9 16:01:55:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:55:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:01:55:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:56:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:56:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:01:56:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:01:57:114 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/27 has been set to forwarding state.
+
+*Jan  9 16:01:57:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:57:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:01:57:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:57:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:01:57:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:58:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:58:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:01:58:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:59:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:59:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:01:59:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:01:59:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:01:59:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:00:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:00:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:00:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:01:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:01:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:01:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:01:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:01:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:01:994 2021 DEVICE-1 DLDP/7/EVENT: Port Ten-GigabitEthernet1/0/29 down.
+
+
+
+*Jan  9 16:02:01:994 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a delaydown timer.
+
+
+
+%Jan  9 16:02:01:998 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:02:000 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:02:240 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:02:245 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:02:246 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+%Jan  9 16:02:02:247 2021 DEVICE-1 STP/6/STP_DISCARDING: VLAN 100's port Ten-GigabitEthernet1/0/27 has been set to discarding state.
+
+%Jan  9 16:02:02:299 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+*Jan  9 16:02:02:638 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:02:639 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:02:639 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:03:303 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:03:305 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+*Jan  9 16:02:03:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:03:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:03:608 2021 DEVICE-1 DLDP/7/TIMER: The delaydown timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:03:623 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: BIDIRECTIONAL --> INACTIVE
+
+Stimulation: Port down
+
+
+
+*Jan  9 16:02:05:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:05:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:07:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:07:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:07:680 2021 DEVICE-1 DLDP/7/EVENT: Port Ten-GigabitEthernet1/0/29 up.
+
+
+
+%Jan  9 16:02:07:680 2021 DEVICE-1 DLDP/3/DLDP_LINK_UNIDIRECTIONAL: DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/29. DLDP automatically blocked the interface.
+
+*Jan  9 16:02:07:680 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:07:681 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a recover-probe timer.
+
+
+
+*Jan  9 16:02:07:681 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: INACTIVE --> UNIDIRECTIONAL
+
+Stimulation: Port up
+
+
+
+*Jan  9 16:02:07:684 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/6/DLDP_NEIGHBOR_CONFIRMED: A neighbor was confirmed on interface Ten-GigabitEthernet1/0/29. The neighbor's system MAC is 1484-77e2-88f8, and the port index is 1.
+
+*Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-ECHO
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Carried
+
+
+
+%Jan  9 16:02:07:686 2021 DEVICE-1 DLDP/6/DLDP_LINK_BIDIRECTIONAL: DLDP detected a bidirectional link on interface Ten-GigabitEthernet1/0/29.
+
+*Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-ECHO
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Carried
+
+
+
+%Jan  9 16:02:07:697 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+*Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/7/TIMER: The neighbor of port Ten-GigabitEthernet1/0/29 created an aged timer.
+
+Neighbor BridgeMAC: 1484-77e2-88f8
+
+Neighbor PortIndex: 1
+
+
+
+*Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 added a neighbor.
+
+Neighbor BridgeMAC: 1484-77e2-88f8
+
+Neighbor PortIndex: 1
+
+Neighbor state: CONFIRMED
+
+
+
+*Jan  9 16:02:07:685 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:07:686 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created an advertisement timer.
+
+
+
+*Jan  9 16:02:07:699 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: UNIDIRECTIONAL --> BIDIRECTIONAL
+
+Stimulation: Confirmed neighbor
+
+
+
+*Jan  9 16:02:07:699 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:07:710 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:07:710 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+%Jan  9 16:02:07:767 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:07:771 2021 DEVICE-1 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/29 (IfIndex 29), neighbor's chassis ID is 1484-77e2-88f8, port ID is Ten-GigabitEthernet1/0/1.
+
+*Jan  9 16:02:08:251 2021 DEVICE-1 DLDP/7/EVENT: Port Ten-GigabitEthernet1/0/29 down.
+
+
+
+%Jan  9 16:02:08:252 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+*Jan  9 16:02:08:251 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a delaydown timer.
+
+
+
+%Jan  9 16:02:08:253 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:08:271 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:08:271 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+*Jan  9 16:02:09:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:09:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:09:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:09:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:09:608 2021 DEVICE-1 DLDP/7/TIMER: The delaydown timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:09:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:10:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:10:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:10:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:11:181 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:11:181 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+%Jan  9 16:02:11:464 2021 DEVICE-1 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/29 (IfIndex 29), neighbor's chassis ID is 1484-77e2-88f8, port ID is Ten-GigabitEthernet1/0/1.
+
+*Jan  9 16:02:11:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:11:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:11:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:11:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:11:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:12:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:12:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:12:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:13:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:13:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:13:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:13:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:13:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:14:582 2021 DEVICE-1 DLDP/7/EVENT: Port Ten-GigabitEthernet1/0/29 down.
+
+
+
+*Jan  9 16:02:14:582 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a delaydown timer.
+
+
+
+*Jan  9 16:02:14:617 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+%Jan  9 16:02:14:618 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:14:618 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:15:015 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:015 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:154 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:15:155 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:15:258 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:15:259 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+%Jan  9 16:02:15:284 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:288 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:423 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:15:423 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+
+%Jan  9 16:02:15:561 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:568 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+%Jan  9 16:02:15:572 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:15:572 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+*Jan  9 16:02:15:636 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:15:637 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:15:637 2021 DEVICE-1 DLDP/7/TIMER: The delaydown timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:15:637 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:15:637 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:02:15:637 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+*Jan  9 16:02:16:444 2021 DEVICE-1 DLDP/7/EVENT: Port Ten-GigabitEthernet1/0/29 down.
+*Jan  9 16:02:16:444 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a delaydown timer.
+%Jan  9 16:02:16:479 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+%Jan  9 16:02:16:483 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to down.
+*Jan  9 16:02:16:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:02:17:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+*Jan  9 16:02:17:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+*Jan  9 16:02:17:608 2021 DEVICE-1 DLDP/7/TIMER: The delaydown timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:02:17:623 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: BIDIRECTIONAL --> INACTIVE
+
+Stimulation: Port down
+
+*Jan  9 16:02:19:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:19:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+*Jan  9 16:02:21:439 2021 DEVICE-1 DLDP/7/ERROR: Port Ten-GigabitEthernet1/0/29 received an error packet. Reason types of the error packet: CURRENT STATE CAN'T RECEIVE PACKET.
+%Jan  9 16:02:21:443 2021 DEVICE-1 DLDP/3/DLDP_LINK_UNIDIRECTIONAL: DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/29. DLDP automatically blocked the interface.
+%Jan  9 16:02:21:447 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+*Jan  9 16:02:21:447 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:21:448 2021 DEVICE-1 DLDP/6/DLDP_NEIGHBOR_CONFIRMED: A neighbor was confirmed on interface Ten-GigabitEthernet1/0/29. The neighbor's system MAC is 1484-77e2-88f8, and the port index is 1.
+*Jan  9 16:02:21:447 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created a recover-probe timer.
+
+
+
+*Jan  9 16:02:21:447 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: INACTIVE --> UNIDIRECTIONAL
+
+Stimulation: Port up
+
+
+
+*Jan  9 16:02:21:448 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-ECHO
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Carried
+
+
+
+ter*Jan  9 16:02:21:448 2021 DEVICE-1 DLDP/7/TIMER: The neighbor of port Ten-GigabitEthernet1/0/29 created an aged timer.
+
+Neighbor BridgeMAC: 1484-77e2-88f8
+
+Neighbor PortIndex: 1
+
+
+
+*Jan  9 16:02:21:448 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 added a neighbor.
+
+Neighbor BridgeMAC: 1484-77e2-88f8
+
+Neighbor PortIndex: 1
+
+Neighbor state: CONFIRMED
+
+
+
+*Jan  9 16:02:21:450 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:21:450 2021 DEVICE-1 DLDP/7/TIMER: Port Ten-GigabitEthernet1/0/29 created an advertisement timer.
+
+
+
+%Jan  9 16:02:21:450 2021 DEVICE-1 DLDP/6/DLDP_LINK_BIDIRECTIONAL: DLDP detected a bidirectional link on interface Ten-GigabitEthernet1/0/29.
+
+*Jan  9 16:02:21:462 2021 DEVICE-1 DLDP/7/FSM: Port Ten-GigabitEthernet1/0/29 state transition: UNIDIRECTIONAL --> BIDIRECTIONAL
+
+Stimulation: Confirmed neighbor
+
+
+
+*Jan  9 16:02:21:463 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Carried
+
+
+
+*Jan  9 16:02:21:463 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ECHO
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Carried
+
+
+
+minal debbu%Jan  9 16:02:21:473 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/29 changed to up.
+
+*Jan  9 16:02:21:474 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+%Jan  9 16:02:21:516 2021 DEVICE-1 STP/5/STP_NOT_ROOT: The current switch is no longer the root of VLAN 100.
+
+%Jan  9 16:02:21:516 2021 DEVICE-1 STP/6/STP_FORWARDING: VLAN 100's port Ten-GigabitEthernet1/0/29 has been set to forwarding state.
+
+%Jan  9 16:02:21:517 2021 DEVICE-1 STP/6/STP_DISCARDING: VLAN 100's port Ten-GigabitEthernet1/0/27 has been set to discarding state.
+
+*Jan  9 16:02:21:621 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:21:621 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+%Jan  9 16:02:22:458 2021 DEVICE-1 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/29 (IfIndex 29), neighbor's chassis ID is 1484-77e2-88f8, port ID is Ten-GigabitEthernet1/0/1.
+
+gin dis*Jan  9 16:02:22:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:22:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:22:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:23:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:23:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:23:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:23:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:23:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+able
+
+                   ^
+
+ % Unrecognized command found at '^' position.
+
+<DEVICE-1>no ter*Jan  9 16:02:24:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:24:608 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+
+
+
+*Jan  9 16:02:24:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:25:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/25 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: RECOVER-PROBE
+
+Flags: NO-FLAG
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:25:608 2021 DEVICE-1 DLDP/7/TIMER: The recover-probe timer of port Ten-GigabitEthernet1/0/25 timed out.
+
+
+
+*Jan  9 16:02:25:608 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 sent a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: e878-eeef-7d24
+
+HostPortIndex: 2
+
+Neighbor information: Not carried
+
+
+
+*Jan  9 16:02:25:609 2021 DEVICE-1 DLDP/7/TIMER: The advertisement timer of port Ten-GigabitEthernet1/0/29 timed out.
+*Jan  9 16:02:25:624 2021 DEVICE-1 DLDP/7/PKT: Port Ten-GigabitEthernet1/0/29 received a DLDP packet. Following is the content of the packet:
+
+DLDP ID: 0x0001
+
+DLDP version ID: 0x01
+
+DLDP packet type: ADVERTISEMENT
+
+Flags: NO-RSY
+
+Authentication mode: SIMPLE
+
+Authentication password: ******
+
+Interval of sending Advertisement packet: 1 seconds
+
+HostBridgeMAC: 1484-77e2-88f8
+
+HostPortIndex: 1
+
+Neighbor information: Not carried
