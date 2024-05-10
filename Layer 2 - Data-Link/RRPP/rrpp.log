@@ -1,0 +1,1744 @@
+
+*Jan 13 19:31:52:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:52:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:53:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:53:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:54:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:54:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:55:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:55:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:56:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:56:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:57:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:57:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:58:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:58:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:59:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:31:59:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:00:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:00:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:01:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:01:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:02:755 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Common-Flush-FDB)
+
+99 0b 00 40 01 07 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:02:755 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 sent packet to domain 1 ring 1.(Length: 64, type: Common-Flush-FDB)
+
+99 0b 00 40 01 07 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+%Jan 13 19:32:02:800 2021 DEVICE-1 RRPP/4/RRPP_RING_FAIL: Ring 1 in Domain 1 failed.
+
+*Jan 13 19:32:02:800 2021 DEVICE-1 RRPP/7/Event: Domain 1 Ring 1 turns to fault for Link-Down packet.
+
+*Jan 13 19:32:02:800 2021 DEVICE-1 RRPP/7/Fsm: Domain 1 ring 1 Master Node FSM. Previous state is Completed. Current state is Failed. Transition event: Received Link-Down packet.
+
+*Jan 13 19:32:02:800 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Link-Down)
+
+99 0b 00 40 01 08 00 01 00 01 00 00 14 84 77 0e 
+
+a2 88 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+%Jan 13 19:32:02:812 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/25 changed to down.
+
+*Jan 13 19:32:02:820 2021 DEVICE-1 RRPP/7/Fsm: Domain 1 ring 1 Master Node FSM. Previous state is Failed. Current state is Failed. Transition event: Own link down.
+
+%Jan 13 19:32:02:821 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/25 changed to down.
+
+%Jan 13 19:32:13:244 2021 DEVICE-1 DLDP/3/DLDP_LINK_UNIDIRECTIONAL: DLDP detected a unidirectional link on interface Ten-GigabitEthernet1/0/25. DLDP automatically blocked the interface.
+
+%Jan 13 19:32:13:247 2021 DEVICE-1 IFNET/3/PHY_UPDOWN: Physical state on the interface Ten-GigabitEthernet1/0/25 changed to up.
+
+%Jan 13 19:32:13:249 2021 DEVICE-1 DLDP/6/DLDP_NEIGHBOR_CONFIRMED: A neighbor was confirmed on interface Ten-GigabitEthernet1/0/25. The neighbor's system MAC is 1484-77e2-88f8, and the port index is 1.
+
+%Jan 13 19:32:13:249 2021 DEVICE-1 DLDP/6/DLDP_LINK_BIDIRECTIONAL: DLDP detected a bidirectional link on interface Ten-GigabitEthernet1/0/25.
+
+*Jan 13 19:32:13:294 2021 DEVICE-1 RRPP/7/Fsm: Domain 1 ring 1 Master Node FSM. Previous state is Failed. Current state is Failed. Transition event: Own link restoring.
+
+%Jan 13 19:32:13:295 2021 DEVICE-1 IFNET/5/LINK_UPDOWN: Line protocol state on the interface Ten-GigabitEthernet1/0/25 changed to up.
+
+*Jan 13 19:32:13:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:13:979 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Complete-Flush-FDB)
+
+99 0b 00 40 01 06 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+%Jan 13 19:32:13:979 2021 DEVICE-1 RRPP/4/RRPP_RING_RESTORE: Ring 1 in Domain 1 recovered.
+
+*Jan 13 19:32:13:979 2021 DEVICE-1 RRPP/7/Event: Domain 1 Ring 1 recovered for Health packet.
+
+*Jan 13 19:32:13:979 2021 DEVICE-1 RRPP/7/Fsm: Domain 1 ring 1 Master Node FSM. Previous state is Failed. Current state is Completed. Transition event: Received own Health packet.
+
+*Jan 13 19:32:13:979 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:13:980 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Complete-Flush-FDB)
+
+99 0b 00 40 01 06 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+%Jan 13 19:32:14:721 2021 DEVICE-1 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/25 (IfIndex 25), neighbor's chassis ID is 1484-770e-a288, port ID is Ten-GigabitEthernet1/0/1.
+
+*Jan 13 19:32:14:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:14:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:15:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:15:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:16:942 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:16:943 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:17:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:17:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:18:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:18:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:19:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:19:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:20:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:20:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:21:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:21:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:22:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:22:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:23:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:23:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:24:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:24:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:25:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:25:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:26:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:26:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:27:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:27:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+*Jan 13 19:32:28:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:28:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:29:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:29:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:30:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:30:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:31:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:31:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:32:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:32:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:33:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:33:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:34:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:34:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:35:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:35:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:36:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:36:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:37:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:37:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:38:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:38:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:39:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:39:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:40:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:40:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:41:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:41:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:42:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:42:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:43:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:43:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:44:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:44:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:45:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:45:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:46:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:46:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:47:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:47:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:48:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:48:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:49:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:49:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:50:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:50:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:51:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:51:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:52:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:52:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:53:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:53:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:54:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:54:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:55:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:55:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:56:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:56:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:57:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:57:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:58:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:58:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:59:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:32:59:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:00:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:00:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:01:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:01:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:02:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:02:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:03:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:03:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:04:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:04:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:05:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:05:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:06:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:06:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:07:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:07:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:08:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:08:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:09:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:09:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:10:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:10:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:11:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:11:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:12:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:12:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:13:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:13:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:14:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:14:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:15:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:15:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:16:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:16:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:17:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:17:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:18:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:18:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:19:947 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:19:948 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:20:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:20:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:21:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:21:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:22:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:22:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:23:942 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:23:943 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:24:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:24:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:25:940 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/25 sent packet to domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+*Jan 13 19:33:25:941 2021 DEVICE-1 RRPP/7/Pkt: Port Ten-GigabitEthernet1/0/27 received packet from domain 1 ring 1.(Length: 64, type: Health)
+
+99 0b 00 40 01 05 00 01 00 01 00 00 e8 78 ee ef 
+
+7d 24 00 01 00 03 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
