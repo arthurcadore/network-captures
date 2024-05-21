@@ -1,0 +1,130 @@
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.2 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.2.0 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.3 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.3.0 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.4 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.4.0 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.5 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: eth0.5.0 down 
+29|Jan  1 00:00:15|daemon.notice|systemd: br0 down 
+29|Jan  1 00:00:16|daemon.notice|hostapd: rfkill: Cannot open RFKILL control device
+29|Jan  1 00:00:17|daemon.notice|hostapd: wlan0: interface state UNINITIALIZED->COUNTRY_UPDATE
+29|Jan  1 00:00:17|daemon.notice|hostapd: ACS: Automatic channel selection started, this may take a bit
+29|Jan  1 00:00:17|daemon.notice|hostapd: wlan0: interface state COUNTRY_UPDATE->ACS
+29|Jan  1 00:00:17|daemon.notice|hostapd: wlan0: ACS-STARTED 
+29|Jan  1 00:00:18|daemon.notice|systemd: wlan0 down 
+29|Jan  1 00:00:19|daemon.notice|hostapd: wlan0: ACS-COMPLETED freq=5745 channel=149
+27|Jan  1 00:00:19|daemon.err|hostapd: skip ieee80211n_check_40mhz
+29|Jan  1 00:00:19|daemon.notice|hostapd: wlan0: interface state ACS->ENABLED
+29|Jan  1 00:00:19|daemon.notice|hostapd: wlan0: AP-ENABLED 
+29|Jan  1 00:00:19|daemon.notice|systemd: wlan0 up 
+29|Jan  1 00:00:20|daemon.notice|systemd: br0 up 
+29|Jan  1 00:00:20|daemon.notice|hostapd: rfkill: Cannot open RFKILL control device
+29|Jan  1 00:00:21|daemon.notice|systemd: wlan1 down 
+29|Jan  1 00:00:21|daemon.notice|hostapd: wlan1: interface state UNINITIALIZED->COUNTRY_UPDATE
+29|Jan  1 00:00:21|daemon.notice|hostapd: ACS: Automatic channel selection started, this may take a bit
+29|Jan  1 00:00:21|daemon.notice|hostapd: wlan1: interface state COUNTRY_UPDATE->ACS
+29|Jan  1 00:00:21|daemon.notice|hostapd: wlan1: ACS-STARTED 
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 78:a0:3f:d7:49:ec IEEE 802.11: associated
+29|Jan  1 00:00:24|daemon.notice|hostapd: wlan0: AP-STA-CONNECTED 78:a0:3f:d7:49:ec
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 78:a0:3f:d7:49:ec RADIUS: starting accounting session F22B4EEB5DD8AF58
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 78:a0:3f:d7:49:ec WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:24|daemon.notice|hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 78:a0:3f:d7:49:ec
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 08:57:fb:03:6e:1d IEEE 802.11: associated
+29|Jan  1 00:00:24|daemon.notice|hostapd: wlan0: AP-STA-CONNECTED 08:57:fb:03:6e:1d
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 08:57:fb:03:6e:1d RADIUS: starting accounting session 4B534E341019E90E
+30|Jan  1 00:00:24|daemon.info|hostapd: wlan0: STA 08:57:fb:03:6e:1d WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:24|daemon.notice|hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 08:57:fb:03:6e:1d
+29|Jan  1 00:00:25|daemon.notice|hostapd: wlan1: ACS-COMPLETED freq=2437 channel=6
+27|Jan  1 00:00:25|daemon.err|hostapd: skip ieee80211n_check_40mhz
+29|Jan  1 00:00:25|daemon.notice|hostapd: wlan1: interface state ACS->ENABLED
+29|Jan  1 00:00:25|daemon.notice|hostapd: wlan1: AP-ENABLED 
+29|Jan  1 00:00:25|daemon.notice|systemd: wlan1 up 
+14|Jan  1 00:00:25|user.info|startup: Start all WAN
+29|Jan  1 00:00:26|daemon.notice|systemd: Ethernet WAN(nas0) down 
+29|Jan  1 00:00:26|daemon.notice|miniupnpd[1384]: HTTP listening on port 52869
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 24:94:94:c5:73:a7 IEEE 802.11: associated
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED 24:94:94:c5:73:a7
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 24:94:94:c5:73:a7 RADIUS: starting accounting session 5DF675090231BEEB
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 24:94:94:c5:73:a7 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED 24:94:94:c5:73:a7
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 40:91:51:58:78:8d IEEE 802.11: associated
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED 40:91:51:58:78:8d
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 40:91:51:58:78:8d RADIUS: starting accounting session 52C0C2104C1EFA64
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA 40:91:51:58:78:8d WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED 40:91:51:58:78:8d
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA d8:1f:12:32:04:69 IEEE 802.11: associated
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED d8:1f:12:32:04:69
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA d8:1f:12:32:04:69 RADIUS: starting accounting session 0C2ABD5EE640B49D
+30|Jan  1 00:00:27|daemon.info|hostapd: wlan1: STA d8:1f:12:32:04:69 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:27|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED d8:1f:12:32:04:69
+30|Jan  1 00:00:28|daemon.info|hostapd: wlan1: STA 1c:90:ff:27:4c:e4 IEEE 802.11: associated
+29|Jan  1 00:00:28|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED 1c:90:ff:27:4c:e4
+30|Jan  1 00:00:28|daemon.info|hostapd: wlan1: STA 1c:90:ff:27:4c:e4 RADIUS: starting accounting session 2A2D3ACABCE9A742
+30|Jan  1 00:00:28|daemon.info|hostapd: wlan1: STA 1c:90:ff:27:4c:e4 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:28|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED 1c:90:ff:27:4c:e4
+30|Jan  1 00:00:28|daemon.info|hostapd: wlan0: STA 58:cb:52:58:87:35 IEEE 802.11: associated
+29|Jan  1 00:00:29|daemon.notice|hostapd: wlan0: AP-STA-CONNECTED 58:cb:52:58:87:35
+30|Jan  1 00:00:29|daemon.info|hostapd: wlan0: STA 58:cb:52:58:87:35 RADIUS: starting accounting session 542478FBCA9DE94F
+30|Jan  1 00:00:29|daemon.info|hostapd: wlan0: STA 58:cb:52:58:87:35 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:29|daemon.notice|hostapd: wlan0: EAPOL-4WAY-HS-COMPLETED 58:cb:52:58:87:35
+27|Dec 31 21:00:33|daemon.err|routed[1810]: Cannot log to -D: not under /var/log/ 
+27|Dec 31 21:00:33|daemon.err|routed[1810]: adding route to net/host 10.0.0.0 through gateway 10.0.0.1: Cannot assign requested address 
+26|Dec 31 21:00:34|daemon.crit|dnsmasq[1989]: failed to create listening socket: Address already in use
+26|Dec 31 21:00:34|daemon.crit|dnsmasq[1989]: FAILED to start up
+13|Dec 31 21:00:34|user.notice|boa[1991]: Enabling SSL security system
+15|Dec 31 21:00:34|user.debug|boa[1991]: Loaded SSL certificate file: /etc/ssl_cert.pem
+15|Dec 31 21:00:34|user.debug|boa[1991]: Opened private key file: /etc/ssl_key.pem
+13|Dec 31 21:00:34|user.notice|boa[1991]: SSL security system enabled
+14|Dec 31 21:00:34|user.info|boa[1991]: Boa/0.93.15 started
+14|Dec 31 21:00:34|user.info|boa[1991]: DSL Link up
+30|Jan  1 00:00:34|daemon.info|hostapd: wlan1: STA e8:65:d4:5e:23:81 IEEE 802.11: associated
+29|Jan  1 00:00:34|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED e8:65:d4:5e:23:81
+30|Jan  1 00:00:34|daemon.info|hostapd: wlan1: STA e8:65:d4:5e:23:81 RADIUS: starting accounting session 8EB001723C7B1E33
+30|Jan  1 00:00:34|daemon.info|hostapd: wlan1: STA e8:65:d4:5e:23:81 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:34|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED e8:65:d4:5e:23:81
+29|Dec 31 21:00:36|daemon.notice|miniupnpd[2313]: HTTP listening on port 52869
+29|Jan  1 00:00:36|daemon.notice|systemd: eth0.5 up 
+29|Jan  1 00:00:36|daemon.notice|systemd: eth0.5.0 up 
+28|Dec 31 21:00:36|daemon.warn|vsntp[1973]: connect 200.160.7.186: Network is unreachable 
+28|Dec 31 21:00:36|daemon.warn|vsntp[1973]: getaddrinfo: Address family for hostname not supported 
+28|Dec 31 21:00:36|daemon.warn|vsntp[1973]: connect 2001:12ff:0:7::186: Network is unreachable 
+29|Dec 31 21:00:36|daemon.notice|miniupnpd[2371]: HTTP listening on port 52869
+29|Jan  1 00:00:37|daemon.notice|systemd: eth0.3 up 
+29|Jan  1 00:00:37|daemon.notice|systemd: eth0.3.0 up 
+29|Jan  1 00:00:38|daemon.notice|systemd: eth0.2 up 
+29|Jan  1 00:00:38|daemon.notice|systemd: eth0.2.0 up 
+30|Jan  1 00:00:41|daemon.info|hostapd: wlan1: STA 9e:a2:f4:07:df:c9 IEEE 802.11: associated
+29|Jan  1 00:00:41|daemon.notice|hostapd: wlan1: AP-STA-CONNECTED 9e:a2:f4:07:df:c9
+30|Jan  1 00:00:41|daemon.info|hostapd: wlan1: STA 9e:a2:f4:07:df:c9 RADIUS: starting accounting session F95B3FFE9096E810
+30|Jan  1 00:00:41|daemon.info|hostapd: wlan1: STA 9e:a2:f4:07:df:c9 WPA: pairwise key handshake completed (RSN)
+29|Jan  1 00:00:41|daemon.notice|hostapd: wlan1: EAPOL-4WAY-HS-COMPLETED 9e:a2:f4:07:df:c9
+29|Jan  1 00:00:53|daemon.notice|systemd: Ethernet WAN(nas0) up 
+29|Jan  1 00:00:54|daemon.notice|systemd: eth0.2 down 
+29|Jan  1 00:00:54|daemon.notice|systemd: eth0.3 down 
+29|Jan  1 00:00:54|daemon.notice|systemd: eth0.5 down 
+29|Jan  1 00:00:55|daemon.notice|systemd: eth0.2.0 down 
+29|Jan  1 00:00:55|daemon.notice|systemd: eth0.3.0 down 
+29|Jan  1 00:00:55|daemon.notice|systemd: eth0.5.0 down 
+29|Jan  1 00:00:56|daemon.notice|systemd: eth0.5 up 
+29|Jan  1 00:00:56|daemon.notice|systemd: eth0.5.0 up 
+29|Jan  1 00:00:56|daemon.notice|systemd: eth0.3 up 
+29|Jan  1 00:00:56|daemon.notice|systemd: eth0.3.0 up 
+29|Jan  1 00:00:57|daemon.notice|systemd: eth0.2 up 
+29|Jan  1 00:00:57|daemon.notice|systemd: eth0.2.0 up 
+28|Dec 31 21:01:04|daemon.warn|vsntp[1973]: connect 200.160.7.186: Network is unreachable 
+28|Dec 31 21:01:04|daemon.warn|vsntp[1973]: getaddrinfo: Address family for hostname not supported 
+28|Dec 31 21:01:04|daemon.warn|vsntp[1973]: connect 2001:12ff:0:7::186: Network is unreachable 
+14|Dec 31 21:01:05|user.info|spppd: spppd: ppp0: AC MAC address C0:FF:A8:E3:6D:A5 
+14|Dec 31 21:01:05|user.info|spppd: spppd: ppp0: PPPoE Session ID 26725 
+14|Dec 31 21:01:08|user.info|spppd: spppd: ppp0: Authentication(PAP) success 
+14|Dec 31 21:01:08|user.info|spppd: spppd: ppp0: Primary DNS 186.249.216.26
+14|Dec 31 21:01:08|user.info|spppd: spppd: ppp0: Secondary DNS 186.249.216.30
+14|Dec 31 21:01:08|user.info|spppd: spppd: ppp0: IP address 100.66.105.231 
+14|Dec 31 21:01:08|user.info|spppd: spppd: ppp0: gateway 170.80.211.142 
+14|Dec 31 21:01:08|user.info|spppd: spppd: route add default ppp0
+29|Jan  1 00:01:08|daemon.notice|systemd: ppp0 up 
+86|May 17 13:20:55|authpriv.info|boa[1991]: login successful for admin from 10.0.0.120(LAN) via web 10.0.0.1 05/17 13:20:55.605 
+27|May 17 13:20:57|daemon.err|routed[1810]: adding route to net/host 170.80.211.142 through gateway 100.66.105.231: Cannot assign requested address 
+27|May 17 13:20:57|daemon.err|routed[1810]: adding route to net/host 100.66.105.231 through gateway 127.0.0.1: Cannot assign requested address 
+27|May 17 13:21:12|daemon.err|routed[1810]: deleting route to interface lo? (timed out?)

@@ -1,0 +1,4321 @@
+ System start ...
+
+ Reboot Cause: 0x00000000
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x00000000
+
+ Slave Trace code : 0x00000000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 32
+ PCIE Link OK.
+ boot (A) area start.............
+ The last update date of base BIOS A is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 2
+
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : d
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1 
+
+
+ Enter error,Please enter your choice again:
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:Q
+
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 22
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 2
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:Q
+
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.32.103.11,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10.100.29.123
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 10.100.29.88
+
+ File name          : [uImage] / . ./managa ecard/firmware.bin
+
+ You will download file './managecard/firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download ./managecard/firmware.bin ...
+
+T T T 
+
+ Retry count exceeded; starting again
+T T T 
+
+ Retry count exceeded; starting again
+T T 
+Abort
+Tftp download file ./managecard/firmware.bin fail, times: 1!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] ./managecard/firmware.bin
+
+ You will download file './managecard/firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download ./managecard/firmware.bin ...
+
+Tftp download file ./managecard/firmware.bin fail, times: 1!
+
+T T T 
+
+ Retry count exceeded; starting again
+T 
+Abort
+Tftp download file ./managecard/firmware.bin fail, times: 2!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] fibe  mer   rmware.bin
+
+ You will download file 'firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download firmware.bin ...
+
+T T T 
+
+ Retry count exceeded; starting again
+T Tftp download file firmware.bin fail, times: 1!
+
+T T T 
+
+ Retry count exceeded; starting again
+T T T 
+
+ Retry count exceeded; starting again
+T T Tftp download file firmware.bin fail, times: 2!
+
+T T T 
+
+ Retry count exceeded; starting again
+T T T 
+
+ Retry count exceeded; starting again
+T T Tftp download file firmware.bin fail, times: 3!
+
+T T T 
+
+ Retry count exceeded; starting again
+T 
+Abort
+Tftp download file firmware.bin fail, times: 4!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] firmware.bin
+
+ You will download file 'firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download firmware.bin ...
+
+T T T 
+
+ Retry count exceeded; starting again
+T Tftp download file firmware.bin fail, times: 1!
+
+T T T 
+
+ Retry count exceeded; starting again
+T T T 
+
+ Retry count exceeded; starting again
+T T Tftp download file firmware.bin fail, times: 2!
+
+T T T 
+
+ Retry count exceeded; starting again
+T T T 
+
+ Retry count exceeded; starting again
+T T Tftp download file firmware.bin fail, times: 3!
+
+Abort
+Tftp download file firmware.bin fail, times: 4!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice :  1
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] firmware.bin
+
+ You will download file 'firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download firmware.bin ...
+
+T T T 
+
+ Retry count exceeded; starting again
+T T 
+Abort
+Tftp download file firmware.bin fail, times: 1!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : ^[[26~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~^[[24~
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] firmware.bin
+
+ You will download file 'firmware.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download firmware.bin ...
+
+Tftp download file firmware.bin OK!
+
+ 30644388 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] hsoa_linux_1330  00_tst_N0 O0 98_20230306.bin
+
+ You will download file 'hsoa_linux_1300_tst_NO98_20230306.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hsoa_linux_1300_tst_NO98_20230306.bin ...
+
+Tftp download file hsoa_linux_1300_tst_NO98_20230306.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] hsoa_lix nux_1300_tst_NO98_20230306.B bin
+
+ You will download file 'hsoa_linux_1300_tst_NO98_20230306.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hsoa_linux_1300_tst_NO98_20230306.bin ...
+
+Tftp download file hsoa_linux_1300_tst_NO98_20230306.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 344
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] e fe ilesys_hsoa_linux.bin
+
+ You will download file 'filesys_hsoa_linux.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download filesys_hsoa_linux.bin ...
+
+Tftp download file filesys_hsoa_linux.bin OK!
+
+ 10254175 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 3
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [initrd.cpio.lzma] 
+
+ You will download file 'initrd.cpio.lzma' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 5
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 9[
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 6
+
+Command "timer_info"
+
+Command "help"
+
+Command "saveenv"
+
+Command "save_env"
+
+Command "clear_env"
+
+Command "setenv"
+
+Command "printenv"
+
+Command "ping"
+
+Command "tftp"
+
+Command "loopback"
+
+Command "flash_w"
+
+Command "flash_r"
+
+
+=> 
+
+=> 
+
+=> 
+
+=> ext it
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 2
+
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 43
+
+
+ Invalid input!
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 6
+
+
+=> 
+
+=> 
+
+=> 
+
+=> ?
+[run_cmd] unknown command '?' - try 'cmd_help'.
+
+=> 
+
+=> 
+
+=> 
+
+=>             ?
+[run_cmd] unknown command '?' - try 'cmd_help'.
+
+=> 	
+
+=> 
+
+=> 
+
+=> 
+
+=> hl elp
+
+clear_env       - clear_env()
+
+
+flash_r         - flash_r(buffer, offset, size)
+
+flash_w         - flash_w(buffer, offset, size)
+
+help            - help(cmd_name)
+
+loopback        - loopback(eth_name)
+
+ping            - ping(ip_addr)
+
+printenv        - printenv(env_name)
+
+
+save_env        - save_env()
+
+
+saveenv        - saveenv()
+
+
+setenv          - setenv(env_name, env_value)
+
+
+tftp            - tftp(file_name, addr)
+
+timer_info      - timer_info()
+
+=> 
+
+=> tftp	? 
+
+Abort
+
+=> 
+
+=> tftp	?
+
+TFTP error: 'File not found' (1)
+
+=> 
+
+=> 
+
+=> tftp	?      ping 10.100.29.88
+Using GMAC1 device
+host 10.100.29.88 is alive
+
+=> 
+
+=> 
+
+=> timer	      
+
+=> timer_info
+
+Hi-boot Timer Infomation:
+TIMER_ID: 0
+Name: Hi-led
+  timeout: 25, current count: 9
+  handle: 0x8201078c, arg: 0x0
+
+Name: Hi-Wdt
+  timeout: 10, current count: 8
+  handle: 0x82002968, arg: 0x1
+
+TIMER_ID: 1
+
+=> 
+
+=> g loob pback
+
+Abort
+eth loopback phy fail. ret : -3
+
+=> loopback ethc0  0
+
+Abort
+eth loopback phy fail. ret : -3
+
+=> 
+
+=> 
+
+=> 
+
+=> 
+
+=> help
+
+clear_env       - clear_env()
+
+
+flash_r         - flash_r(buffer, offset, size)
+
+flash_w         - flash_w(buffer, offset, size)
+
+help            - help(cmd_name)
+
+loopback        - loopback(eth_name)
+
+ping            - ping(ip_addr)
+
+printenv        - printenv(env_name)
+
+
+save_env        - save_env()
+
+
+saveenv        - saveenv()
+
+
+setenv          - setenv(env_name, env_value)
+
+
+tftp            - tftp(file_name, addr)
+
+timer_info      - timer_info()
+
+=> 
+
+=> tftp firmware.bin 10.100.29.123
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 2
+
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 6
+
+Command "timer_info"
+
+Command "help"
+
+Command "saveenv"
+
+Command "save_env"
+
+Command "clear_env"
+
+Command "setenv"
+
+Command "printenv"
+
+Command "ping"
+
+Command "tftp"
+
+Command "loopback"
+
+Command "flash_w"
+
+Command "flash_r"
+
+
+=> 
+
+=> 
+
+=> tftp	hbin.bin 10.100.29.88
+T T T 
+
+ Retry count exceeded; starting again
+T 
+Abort
+
+=> 
+
+=> ping 10l .100.29.88
+Using GMAC1 device
+
+Abort
+ping failed; host 10.100.29.88 is not alive
+
+=> 
+
+=> ping 10.100.29.88  123
+Using GMAC1 device
+
+Abort
+ping failed; host 10.100.29.123 is not alive
+
+=> 
+
+=> 
+
+=> 
+
+=> 
+
+=> exit
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 01
+
+
+ Invalid input!
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] n
+
+ Invalid IP address!
+ Board IP address   : [10.11.104.5] n
+
+ Invalid IP address!
+ Board IP address   : [10.11.104.5] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.32.103.11,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10.100.29.123
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 10.100.29.88
+
+ File name          : [uImage] hbin.bin
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+TFTP error: 'File not found' (1)
+Tftp download file hbin.bin fail, times: 1!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 10254175 bytes download OK 
+ save file to flash.....
+FileId:0x8 addr:0x40800000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download uImage ...
+
+Tftp download file uImage OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 2
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hi-boot.bin] 
+
+ You will download file 'hi-boot.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]
+
+
+ Downloading file, please wait...download hi-boot.bin ...
+
+Tftp download file hi-boot.bin OK!
+
+ 223920 bytes download OK 
+ save file to main area.....
+FileId:0x3 addr:0x40000000
+ boot (B) area start.............
+FileId:0x3 addr:0x40000000ok!
+ save file to spare area.....
+FileId:0x3 addr:0x40100000
+ boot (B) area start.............
+FileId:0x3 addr:0x40000000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 3
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [initrd.cpio.lzma] 
+
+ You will download file 'initrd.cpio.lzma' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<0000f5cf>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 41400000  r9 : 41800000	 r8 : 82035f10
+r7 : 82036178  r6 : 40800000	 r5 : 40c00000  r4 : 90000000
+r3 : 0000a100  r2 : c0000000	 r1 : c2054b57  r0 : 000054cf
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 cf f5 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 2a 00 00 00 af 49 31 92 
+00 00 00 00 2e 32 00 00 00 80 14 00 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 7f 31 7f 7f 00 00 
+05 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 ef 35 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 35 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 05 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 05 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 35 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+43210
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00005844>]
+sp : 81dfff8c  ip : 820282e0	 fp : 32454b57
+r10: 41400000  r9 : 41800000	 r8 : 82035f10
+r7 : 82036178  r6 : 40800000	 r5 : 40c00000  r4 : 90000000
+r3 : 00007600  r2 : c0000000	 r1 : c2054b57  r0 : 00002e44
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+8c ff df 81 44 58 00 00 
+cc 4f 00 82 13 01 00 80 78 61 03 82 98 10 00 82 
+72 5a 9d 62 00 00 00 00 00 00 00 00 2e 32 00 00 
+00 80 14 00 01 00 2e 32 00 00 c0 8f 57 4b 45 32 
+ff ff ff ff 00 00 00 0d 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 44 13 00 82 06 00 00 00 00 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ef ff ff 
+ff fd ff ff ff ff ff ff ff ff ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff fb ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+7f ff ff ff ff ff ff df ff fe ff ff ff ff ef ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff f7 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ef ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 7f ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff bf ff ff ff ff ff ff ff ff ff ff 
+ff ff fe ff ff ff ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff ff ff ff 7f ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff fe ff ff ff ff ff ff ff fe ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff fb ff 
+ff ff ff ff ff df ff ff ff fd ff ff ff ff ff ff 
+ff fd ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+43
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00005485>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 41400000  r9 : 41800000	 r8 : 82035f10
+r7 : 82036178  r6 : 40800000	 r5 : 40c00000  r4 : 90000000
+r3 : 00000d00  r2 : c0000000	 r1 : c2054b57  r0 : 00005985
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 85 54 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 00 00 00 00 25 3c 0a 45 
+00 00 00 00 2e 32 00 00 00 80 14 00 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+03 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 8d 39 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 33 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 03 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 03 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 33 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00009de8>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 41400000  r9 : 41800000	 r8 : 82035f10
+r7 : 82036178  r6 : 40800000	 r5 : 40c00000  r4 : 90000000
+r3 : 00003a00  r2 : c0000000	 r1 : c2054b57  r0 : 0000a7e8
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 e8 9d 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 00 00 00 00 62 f5 5e 32 
+00 00 00 00 2e 32 00 00 00 80 14 00 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+05 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 57 38 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 35 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 05 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 05 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 35 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 36
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+4
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 
+
+ File name          : [uImage] n
+
+ You will download file 'n' from TFTP server 10.32.103.11,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10;100    ; .100.29.123
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 10;1  ; .00  100,.  .29.123   88
+
+ File name          : [uImage] hi b bin.bo in
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+T Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 5
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 1.bin
+
+ You will download file '1.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download 1.bin ...
+
+Tftp download file 1.bin OK!
+
+ 10254175 bytes download OK 
+ save file to flash.....
+FileId:0x9 addr:0x41400000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 3
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [initrd.cpio.lzma] hbin.bin
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] j hbn in.bin
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 43
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 3
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [initrd.cpio.lzma] 
+
+ You will download file 'initrd.cpio.lzma' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]ty
+
+
+ Input error, please input (y/n) : y
+
+
+ Downloading file, please wait...download initrd.cpio.lzma ...
+
+Tftp download file initrd.cpio.lzma OK!
+
+ 62934 bytes download OK 
+ save file to flash.....
+FileId:0x5 addr:0x40c00000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00001e51>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 40800000  r9 : 40c00000	 r8 : 82035f10
+r7 : 82036178  r6 : 41400000	 r5 : 41800000  r4 : 90000000
+r3 : 0000f000  r2 : c0000000	 r1 : c2054b57  r0 : 0000ee51
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 51 1e 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 12 00 00 00 8c 0f ec 3f 
+00 00 00 00 2e 32 00 00 00 80 14 bb 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+04 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 b2 34 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 34 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 04 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 04 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 34 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 2
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:0	q
+
+
+ Enter error,Please enter your choice again:
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:Q
+
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10.100.29.123
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 10.100.29.1
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.100.29.1,
+ are you sure? (y/n) [y]
+
+
+ Downloading file, please wait...download uImage ...
+
+T T T 
+
+ Retry count exceeded; starting again
+
+Abort
+Tftp download file uImage fail, times: 1!
+
+
+ Download file fail!
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : ^[[A^[[A3
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.1] 10.100.29.1 88
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 5
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 34
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] hsoa_linux_1300_tst_N0 9 O98_20230306.bin
+
+ You will download file 'hsoa_linux_1300_tst_NO98_20230306.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hsoa_linux_1300_tst_NO98_20230306.bin ...
+
+Tftp download file hsoa_linux_1300_tst_NO98_20230306.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [uImage] hsoa_linux_1300_tt st_n09   n NO98_20230306.bin
+
+ You will download file 'hsoa_linux_1300_tst_NO98_20230306.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hsoa_linux_1300_tst_NO98_20230306.bin ...
+
+Tftp download file hsoa_linux_1300_tst_NO98_20230306.bin OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 3
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [initrd.cpio.lzma] 
+
+ You will download file 'initrd.cpio.lzma' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]ynn
+
+
+ Input error, please input (y/n) : 
+
+
+ Downloading file, please wait...download initrd.cpio.lzma ...
+
+Tftp download file initrd.cpio.lzma OK!
+
+ 62934 bytes download OK 
+ save file to flash.....
+FileId:0x5 addr:0x40c00000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00003ca2>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 40800000  r9 : 40c00000	 r8 : 82035f10
+r7 : 82036178  r6 : 41400000	 r5 : 41800000  r4 : 90000000
+r3 : 00001400  r2 : c0000000	 r1 : c2054b57  r0 : 000028a2
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 a2 3c 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 10 00 00 00 78 65 64 fe 
+00 00 00 00 2e 32 00 00 00 80 14 bb 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+05 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 ec 35 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 35 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 05 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 05 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 35 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00005cc5>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 40800000  r9 : 40c00000	 r8 : 82035f10
+r7 : 82036178  r6 : 41400000	 r5 : 41800000  r4 : 90000000
+r3 : 00008200  r2 : c0000000	 r1 : c2054b57  r0 : 0000dec5
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 c5 5c 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 00 00 00 00 c2 2a 91 2f 
+00 00 00 00 2e 32 00 00 00 80 14 bb 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+05 00 00 00 00 00 00 00 05 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 ea 35 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 35 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 05 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 05 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 35 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+43210
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<0000d10c>]
+sp : 81dfff8c  ip : 820282e0	 fp : 32454b57
+r10: 40800000  r9 : 40c00000	 r8 : 82035f10
+r7 : 82036178  r6 : 41400000	 r5 : 41800000  r4 : 90000000
+r3 : 00009e00  r2 : c0000000	 r1 : c2054b57  r0 : 00004f0c
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+8c ff df 81 0c d1 00 00 
+cc 4f 00 82 13 01 00 80 78 61 03 82 98 10 00 82 
+49 84 bd 62 00 00 00 00 00 00 00 00 2e 32 00 00 
+00 80 14 bb 01 00 2e 32 00 00 c0 8f 57 4b 45 32 
+ff ff ff ff 00 00 00 0d 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 44 13 00 82 06 00 00 00 00 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ef ff ff 
+ff fd ff ff ff ff ff ff ff ff ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff fb ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+7f ff ff ff ff ff ff df ff fe ff ff ff ff ef ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff f7 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ef ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 7f ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff bf ff ff ff ff ff ff ff ff ff ff 
+ff ff fe ff ff ff ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff ff ff ff 7f ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff fe ff ff ff ff ff ff ff fe ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff fb ff 
+ff ff ff ff ff df ff ff ff fd ff ff ff ff ff ff 
+ff fd ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+43210
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<0000e7fe>]
+sp : 81dfff8c  ip : 820282e0	 fp : 32454b57
+r10: 40800000  r9 : 40c00000	 r8 : 82035f10
+r7 : 82036178  r6 : 41400000	 r5 : 41800000  r4 : 90000000
+r3 : 0000c900  r2 : c0000000	 r1 : c2054b57  r0 : 00002efe
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+8c ff df 81 fe e7 00 00 
+cc 4f 00 82 13 01 00 80 78 61 03 82 98 10 00 82 
+e1 21 9e 62 00 00 00 00 00 00 00 00 2e 32 00 00 
+00 80 14 bb 01 00 2e 32 00 00 c0 8f 57 4b 45 32 
+ff ff ff ff 00 00 00 0d 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 44 13 00 82 06 00 00 00 00 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ef ff ff 
+ff fd ff ff ff ff ff ff ff ff ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff fb ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+7f ff ff ff ff ff ff df ff fe ff ff ff ff ef ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff f7 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ef ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff 7f ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff bf ff ff ff ff ff ff ff ff ff ff 
+ff ff fe ff ff ff ff ff ff ff ff ff df ff ff ff 
+ff ff ff ff ff ff ff ff 7f ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff fe ff ff ff ff ff ff ff fe ff fe ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff fb ff 
+ff ff ff ff ff df ff ff ff fd ff ff ff ff ff ff 
+ff fd ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+4
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 
+
+ File name          : [uImage] n
+
+ You will download file 'n' from TFTP server 10.32.103.11,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10.100.29.12
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.32.103.11] 
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.32.103.11,
+ are you sure? (y/n) [y]n
+
+
+ User abort the file download 
+
+ BSP_LoadProc :: ulLine : 966, ulRet : 0xFFFFFFFF!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 1
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.11.104.5] 10.100.9 29.123
+
+ Board mask address : [255.255.255.0] 1 
+
+ TFTP server IP     : [10.32.103.11] 10.2 100.29.88
+
+ File name          : [uImage] 
+
+ You will download file 'uImage' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]yt
+
+
+ Input error, please input (y/n) : y
+
+
+ Downloading file, please wait...download uImage ...
+
+Tftp download file uImage OK!
+
+ 34449472 bytes download OK 
+ save file to flash.....fail!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+
+
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+
+ 1  TFTP load mode
+
+ Quit
+
+
+ Please enter your choice:1
+
+
+ Board IP address   : [10.100.29.123] 
+
+ Board mask address : [255.255.255.0] 
+
+ TFTP server IP     : [10.100.29.88] 
+
+ File name          : [hbin.bin] 
+
+ You will download file 'hbin.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+
+ Downloading file, please wait...download hbin.bin ...
+
+Tftp download file hbin.bin OK!
+
+ 10254175 bytes download OK 
+ save file to flash.....
+FileId:0x8 addr:0x40800000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0^[[3~
+
+
+ Invalid input!
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ boot from flash ... 
+data abort
+pc : [<82004fcc>]	   lr : [<00007c26>]
+sp : 81dffd44  ip : 820282e0	 fp : 32454b57
+r10: 41400000  r9 : 41800000	 r8 : 82035f10
+r7 : 82036178  r6 : 40800000	 r5 : 40c00000  r4 : 90000000
+r3 : 0000c600  r2 : c0000000	 r1 : c2054b57  r0 : 0000ba26
+Flags: Nzcv  IRQs on  FIQs on  Mode SVC_32
+
+44 fd df 81 26 7c 00 00 cc 4f 00 82 13 01 00 80 
+78 61 03 82 98 10 00 82 08 00 00 00 f7 41 f5 75 
+00 00 00 00 2e 32 00 00 00 80 14 00 01 00 2e 32 
+00 00 c0 8f 57 4b 45 32 be c2 02 82 00 00 00 0d 
+8c 3a 03 82 00 00 00 00 74 3a 03 82 9c fd df 81 
+8c 3a 03 82 63 9b 02 82 74 3a 03 82 6c 4d 00 82 
+00 00 00 00 00 00 00 00 ff ff ff ff b9 fe df 81 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 df 81 00 00 00 00 
+04 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 
+ff ff ff ff b1 fe df 81 0c fe df 81 02 00 00 00 
+00 00 00 00 ff ff ff ff 0a 00 00 00 d4 a4 00 82 
+40 fe df 81 00 00 00 00 00 00 00 00 31 ec 35 0b 
+00 00 00 00 01 00 00 00 65 6e 76 2e 34 00 00 00 
+81 fe df 81 3d f7 02 82 ff ff ff ff 84 ff df 81 
+8f 01 20 7e 70 fe df 81 00 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 00 00 00 00 
+b3 fe df 81 f9 c5 02 82 00 00 00 00 00 00 00 00 
+b1 fe df 81 62 b5 02 82 ff ff ff ff c0 ff df 81 
+4f 01 20 7e b0 fe df 81 02 00 00 00 20 ab 00 82 
+0a 00 00 00 ff ff ff ff ff ff ff ff 02 00 00 00 
+00 03 00 00 03 00 00 00 04 00 00 00 02 00 00 00 
+b3 fe df 81 44 16 00 82 b3 fe df 81 04 00 00 00 
+02 00 00 00 ec bd 00 82 ed fe df 81 bc ff df 81 
+08 34 00 00 ec bd 00 82 30 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 cc 4f 00 82 13 01 00 80 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 06 00 00 00 04 00 00 00 
+00 04 00 11 ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff 20 13 00 82 06 00 00 00 02 00 00 00 
+00 04 00 00 f0 0a 00 82 00 00 00 00 7e e4 02 82 
+26 03 00 00 14 0c 00 82 00 00 00 00 e0 14 00 00 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff fb ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff df ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff ff fb ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff 
+ff ff ff ff ff ef ff ff ff fb ff ff ff ff ff ff 
+ff ff ff ff ff Resetting CPU ...
+
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x10010000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 35
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+
+Press Ctrl+B to enter bootload Menu...  
+
+43
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+
+ Invalid input!
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 12
+
+
+ Invalid input!
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 2
+
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : showerr
+
+
+ File                   Line  FirstErrNo LastErrNo  ErrCount
+                              TimeBaseH  TimeBaseL  ResetCount
+
+ BSP_ErrRecShowAll :: Error Count[0] is Invalid, line : 664!
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : printHEelp
+
+
+ Invalid input!
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : prin	
+
+
+ Invalid input!
+
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : printHelp
+
+
+
+ MID Define
+
+ BSP_MID_COMMON     =0x1
+
+ BSP_MID_OS         =0x2
+
+ BSP_MID_BOOT       =0x3
+
+ BSP_MID_FS         =0x4
+
+ BSP_MID_LOAD       =0x5
+
+ BSP_MID_MENU       =0x6
+
+ BSP_MID_COMPRESS   =0x7
+
+ BSP_MID_POST       =0x8
+
+ BSP_MID_ETMENU     =0x9
+
+ BSP_MID_API        =0xa
+
+ BSP_MID_EFS        =0xb
+
+ BSP_MID_ERRRECORD  =0xc
+
+ BSP_MID_PRINT      =0xd
+
+ BSP_MID_DATABASE   =0xe
+
+ BSP_MID_BASEBIOS   =0xf
+
+ BSP_MID_EXTBIOS    =0x10
+
+ BSP_MID_FT         =0x11
+
+ BSP_MID_AUTOLOAD   =0x12
+
+ BSP_MID_HWINFO     =0x13
+
+ BSP_MID_BACKLOAD   =0x14
+
+
+ Printswitch
+
+ BSP_PRINT_BUFF_MUST=0x0
+
+ BSP_PRINT_MUST     =0xffffffff
+
+ BSP_PRINT_OFF      =0x0
+
+ BSP_PRINT_ERROR    =0x1
+
+ BSP_PRINT_TRACE    =0x2
+
+ BSP_PRINT_MSG      =0x4
+
+ BSP_PRINT_TIME     =0x8
+
+ BSP_PRINT_DETAIL   =0x80000000
+
+
+ PrintType
+
+ BSP_PRINT_OUT      = 0x0
+
+ BSP_PRINT_BUFF     = 0x1
+
+ SubMenu: Debug command
+ ==============================================
+ 0    Back to main menu
+ printctrl            Print ctrol : printctrl [mid] [printswitch] [printtype]
+ printHelp            Show [mid] [printswitch] [printtype]
+ showerr              Show error record : showerr
+ clearerr             Clear error record : clearerr
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 6
+
+Command "timer_info"
+
+Command "help"
+
+Command "saveenv"
+
+Command "save_env"
+
+Command "clear_env"
+
+Command "setenv"
+
+Command "printenv"
+
+Command "ping"
+
+Command "tftp"
+
+Command "loopback"
+
+Command "flash_w"
+
+Command "flash_r"
+
+
+=> flash	
+[run_cmd] unknown command 'flash' - try 'cmd_help'.
+
+=> f flash-r  - _r
+Usage:
+
+flash_r         - flash_r(buffer, offset, size)
+
+ Help: 
+ 
+flash read.
+
+=> 
+
+=> help
+
+clear_env       - clear_env()
+
+
+flash_r         - flash_r(buffer, offset, size)
+
+flash_w         - flash_w(buffer, offset, size)
+
+help            - help(cmd_name)
+
+loopback        - loopback(eth_name)
+
+ping            - ping(ip_addr)
+
+printenv        - printenv(env_name)
+
+
+save_env        - save_env()
+
+
+saveenv        - saveenv()
+
+
+setenv          - setenv(env_name, env_value)
+
+
+tftp            - tftp(file_name, addr)
+
+timer_info      - timer_info()
+
+=> t r exit
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+
+
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3

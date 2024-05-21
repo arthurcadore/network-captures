@@ -1,0 +1,1088 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2024.05.14 17:41:55 =~=~=~=~=~=~=~=~=~=~=~=
+login as: capacitaapps
+capacitaapps@10.100.29.88's password: 
+Welcome to Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-106-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+  System information as of Tue May 14 08:42:00 PM UTC 2024
+
+  System load:                      0.080078125
+  Usage of /:                       9.1% of 97.87GB
+  Memory usage:                     4%
+  Swap usage:                       0%
+  Temperature:                      43.0 C
+  Processes:                        138
+  Users logged in:                  1
+  IPv4 address for br-50c0d01aa5e6: 172.24.0.1
+  IPv4 address for docker0:         172.17.0.1
+  IPv4 address for enp1s0:          10.100.29.88
+  IPv6 address for enp1s0:          2804:1530:300:213::26
+  IPv6 address for enp1s0:          2804:1530:300:213:725a:fff:fe69:f71a
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+34 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+2 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+
+Last login: Tue May 14 11:45:06 2024 from 10.100.29.138
+
+capacitaapps@capacitaapps: ~capacitaapps@capacitaapps:~$ 
+capacitaapps@capacitaapps: ~capacitaapps@capacitaapps:~$ sudo cd /fiberhome-recovery/
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ ls -l
+total 20
+drwxrwxr-x 2 capacitaapps capacitaapps 4096 May 14 12:27 data/
+drwxrwxr-x 2 capacitaapps capacitaapps 4096 May 11 17:57 docker/
+-rw-rw-r-- 1 capacitaapps capacitaapps  462 May 11 17:55 docker-compose.yaml
+-rw-rw-r-- 1 capacitaapps capacitaapps 1070 May 11 17:52 LICENSE
+-rw-rw-r-- 1 capacitaapps capacitaapps   20 May 11 17:52 README.md
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ cd data/
+
+capacitaapps@capacitaapps: ~/fiberhome-recovery/datacapacitaapps@capacitaapps:~/fiberhome-recovery/data$ ls -l
+total 53960
+-rw-r--r-- 1 capacitaapps capacitaapps   223920 May 11 18:28 boot_hsoa_linux.bin
+-rw-r--r-- 1 capacitaapps capacitaapps    62934 May 11 18:28 cpld_hsoa_linux-R1B.bin
+-rw-r--r-- 1 capacitaapps capacitaapps 10254175 May 11 18:28 filesys_hsoa_linux.bin
+-rw-r--r-- 1 capacitaapps capacitaapps 10253919 May 14 12:26 filesys_hsoa_linux.bin.nohead
+-rw-r--r-- 1 capacitaapps capacitaapps 34449472 May 11 18:29 hsoa_linux_1300_tst_NO98_20230306.bin
+capacitaapps@capacitaapps: ~/fiberhome-recovery/datacapacitaapps@capacitaapps:~/fiberhome-recovery/data$ cd ..
+
+
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ tree
+.
+├── ./data/
+│   ├── boot_hsoa_linux.bin
+│   ├── cpld_hsoa_linux-R1B.bin
+│   ├── filesys_hsoa_linux.bin
+│   ├── filesys_hsoa_linux.bin.nohead
+│   └── hsoa_linux_1300_tst_NO98_20230306.bin
+├── ./docker/
+│   ├── Dockerfile
+│   └── startup.sh
+├── docker-compose.yaml
+├── LICENSE
+└── README.md
+
+2 directories, 10 files
+
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ sudo docker ps
+CONTAINER ID   IMAGE                           COMMAND                  CREATED       STATUS       PORTS     NAMES
+be0eb1304977   fiberhome-recovery-tftpserver   "/usr/local/bin/star…"   8 hours ago   Up 8 hours             tftpserver
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ 
+
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ ss -lnu
+
+State           Recv-Q          Send-Q                                       Local Address:Port                   Peer Address:Port         Process          
+UNCONN          0               0                                            127.0.0.53%lo:53                          0.0.0.0:*                             
+UNCONN          0               0                                      10.100.29.88%enp1s0:68                          0.0.0.0:*                             
+UNCONN          0               0                                                  0.0.0.0:69                          0.0.0.0:*                             
+UNCONN          0               0                        [fe80::725a:fff:fe69:f71a]%enp1s0:546                            [::]:*                             
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ 
+
+
+capacitaapps@capacitaapps: ~/fiberhome-recoverycapacitaapps@capacitaapps:~/fiberhome-recovery$ picocom -b 9600 /dev/ttyS0
+picocom v3.1
+port is        : /dev/ttyS0
+flowcontrol    : none
+baudrate is    : 9600
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+
+ System start ...
+
+ Reboot Cause: 0x00000001
+ ISSU flag: 0x00000000
+ ISSU ECS flag: 0x00000000
+
+ Platform System start ...
+
+ Press 'Ctrl+T' to stop auto-boot
+ DDR init ....Pass
+
+
+ Main  trace code : 0x00000000
+
+ Slave Trace code : 0x10010000
+ Chip number is:(1)
+ set unit 0 macro 0
+ temp : 46
+ PCIE Link OK.
+ boot (B) area start.............
+ The last update date of base BIOS B is :    
+
+basebios date:17:05:10 Nov 18 2018
+
+Press Ctrl+B to enter bootload Menu...  
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 1
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 2
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+
+ 0  Xmodem load mode
+ 1  TFTP load mode
+ Q  Quit
+
+ Please enter your choice:1
+
+ Board IP address   : [10.11.104.5] 10.100.2. 0 9.40
+ Board mask address : [255.255.255.0] 1 
+ TFTP server IP     : [10.32.103.11] 10.100.29.88
+ File name          : [hi-boot.bin] boot_hsoa_linux.bin
+ You will download file 'boot_hsoa_linux.bin' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+Downloading file, please wait...download boot_hsoa_linux.bin ...
+Tftp download file boot_hsoa_linux.bin OK!
+
+ 223920 bytes download OK 
+ save file to main area.....
+FileId:0x3 addr:0x40000000
+ boot (B) area start.............
+FileId:0x3 addr:0x40000000ok!
+ save file to spare area.....
+FileId:0x3 addr:0x40100000
+ boot (B) area start.............
+FileId:0x3 addr:0x40000000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 4
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+ 0  Xmodem load mode
+ 1  TFTP load mode
+ Q  Quit
+
+ Please enter your choice:1
+
+ Board IP address   : [10.100.29.40] 
+ Board mask address : [255.255.255.0] 
+ TFTP server IP     : [10.100.29.88] 
+ File name          : [hbin.bin] filesys_hsoa_linux.bin.nohead
+ You will download file 'filesys_hsoa_linux.bin.nohead' from TFTP server 10.100.29.88,
+ are you sure? (y/n) [y]y
+
+ Downloading file, please wait...download filesys_hsoa_linux.bin.nohead ...
+Tftp download file filesys_hsoa_linux.bin.nohead OK!
+
+ 10253919 bytes download OK 
+ save file to flash.....
+FileId:0x8 addr:0x40800000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 5
+ Please select load mode[default: 1 -- TFTP load mode]:
+
+ ============================================
+ 0  Xmodem load mode
+ 1  TFTP load mode
+ Q  Quit
+
+ Please enter your choice:1
+
+ Board IP address   : [10.100.29.40] 
+ Board mask address : [255.255.255.0] 
+ TFTP server IP     : [10.100.29.88] 
+ File name          : [hbin.bin] filesys_hsoa_linux.bin.nohead
+
+You will download file 'filesys_hsoa_linux.bin.nohead' from TFTP server 10.100.29.88,
+are you sure? (y/n) [y]y
+Downloading file, please wait...download filesys_hsoa_linux.bin.nohead ...
+Tftp download file filesys_hsoa_linux.bin.nohead OK!
+
+ 10253919 bytes download OK 
+ save file to flash.....
+FileId:0x9 addr:0x41400000ok!
+
+ SubMenu: Load files
+ ==============================================
+ 0    Back to main menu
+ 1    Download uimage file to flash
+ 2    Download basebios file to flash
+ 3    Download initrd file to flash
+ 4    Download hbin file to main flash
+ 5    Download hbin file to bak flash
+
+ Please enter a choice : 0
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 3
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 6
+
+Command "timer_info"
+Command "help"
+Command "saveenv"
+Command "save_env"
+Command "clear_env"
+Command "setenv"
+Command "printenv"
+Command "ping"
+Command "tftp"
+Command "loopback"
+Command "flash_w"
+Command "flash_r"
+
+=> printev
+Env Version: 1, buf: 0x82440b00, data: 131067
+ethact=GMAC1
+ipaddr=10.182.24.40
+gatewayip=10.182.24.254
+netmask=255.255.248.0
+ethaddr=48:f9:7c:ea:06:4a
+
+Environment size: 105/131072 bytes
+=> exit
+
+ SubMenu: User command
+ ==============================================
+ 0    back to main menu
+ 6    Enter Debug Menu
+
+ Please enter a choice : 0
+
+ Main Menu:
+ ==============================================
+ 0    Boot program
+ 1    Load files
+ 2    Debug command
+ 3    User command
+ 4    Function call : funccall [func] [para1] ... [para6]
+ 5    Reboot system
+ d    Dump memory : d [addr] [num] [width]
+ m    Modify memory : m [addr] [width]
+
+ Please enter a choice : 0
+
+ boot from flash ... 
+
+ kernel_size = 0x2637fc ADDR = 0x41400000,crc:0x6916,act_crc:0x6916,head:0x56190527
+ initrd_size = 0x5c7659 ADDR = 0x41800000,crc:0x823b,act_crc:0x823b,head:0x56190527
+ kernel_buf = 0x8fc00000 kernel_size =0x2637fc
+ Chip number is:(1)
+ MAC:48:f9:7c:ea:06:4a
+Loading Kernel Image ............................. pass
+Loading Ramdisk Image ............................ pass
+
+Starting kernel ...
+
+Uart base = 0x16148000
+dtb addr = 0x80B7D7C0
+Uncompressing Linux... done, booting the kernel.
+
+Linux version 3.10.62-ltsi-WR6.0.0.27_standard (root@6484fc90c960) (gcc version 4.9.3 (Buildroot 2015.11.1-svn630789) ) #4 SMP PREEMPT Wed Dec 8 09:51:02 CST 2021
+smp_twd: clock not found -2
+/media/wufan0393_60029/code/1u-bsp/thd_sdk/thd_fsl61292/linux-windriver/3.10-r0/linux/drivers/rtc/hctosys.c: unable to open rtc device (rtc0)
+Initializing random number generator... done.
+Starting network...
+Trying to mount custfs on NAND...
+
+Welcome to Broadcom Linux
+Jan  1 00:00:18 login[75]: root login on 'ttyS0'
+With 1 seconds left...
+1
+     
+enter :bsp_boardinfo_init:1724
+nod module init ok.
+nod module init ok.2018
+
+enter :MDIO_Init:749
+unknown PHY ID 0x03625d12
+netif_napi_add() called with weight 128 on device eth%d
+
+ DRV_FlashConfig ............OK!(58M+6M)
+
+ [BSP][Flash] FLASH Init...
+
+OK!
+
+hswx_extract_run function running.
+hsoa_and_linecard_ex_run function running.
+
+88477+1 records in
+88477+1 records out
+22650308 bytes (21.6MB) copied, 10.740998 seconds, 2.0MB/s
+tar AN5516.bin success. 
+
+start corecard.sh 
+
+no hsoa_linux
+hswx_run function running.
+
+start linecard.sh ... 4
+1+0 records in
+1+0 records out
+256 bytes (256B) copied, 0.000201 seconds, 1.2MB/s
+37651+1 records in
+37651+1 records out
+9638876 bytes (9.2MB) copied, 0.444919 seconds, 20.7MB/s
+start linecard.sh ... 4
+4rm: can't remove '/mnt/work/linecard.gz': No such file or directory
+rm: can't remove '/mnt/work/linecard.tar.bz': No such file or directory
+start linecard.sh ... 4
+
+sched_setaffinity fail!
+bep_getStatupsTimestamp initialize......ok
+bep_InitCrcTable initialize......ok
+osa_atomicInit initialize......ok
+osa_intInit initialize......ok
+wos_InitMemApiRcd initialize......ok
+oss_configInit initialize......ok
+oss_memInit initialize......ok
+oss_memLogInit initialize......ok
+oss_memLargeInit initialize......ok
+bep_memCheckInit initialize......ok
+res_init initialize......ok
+bep_initLocaleInfo initialize......ok
+wos_watchInit initialize......ok
+osa_eventInit initialize......ok
+osa_semInit initialize......ok
+osa_taskInit initialize......ok
+osa_taskIdleInit initialize......ok
+oss_logInit initialize......ok
+diag_logErrInit initialize......ok
+diag_logMsgInit initialize......ok
+wos_Init initialize......ok
+oss_msgInit initialize......ok
+oss_timerInit initialize......ok
+wos_showLatestFatalError initialize......ok
+uim_sysInit initialize......ok
+fhp_Init initialize......ok
+oss_dispatchInit initialize......oktime:Aug 23 2019 18:10:05[S1][T:6428][M0][PI]module data initialize...................................begin
+[S2][T:6430][M0][PI]ram_disk_init initialize.....ok
+current tty:/dev/ttyS0
+consoleFd 5.
+[S3][T:6433][M0][PI]active_shell_init initialize.....ok
+[S4][T:6435][M0][PI]hswdCpldRegInit initialize.....ok
+[S5][T:6438][M0][PI]hss_master_slave_judge initialize.....ok
+[patch]fhsp patch init...
+[patch]get_patch_status_from_flash fail. ret=-1
+[S:1][T:6487][M:0][P:I]module data initialize...................................begin
+Enter fhdrv_olt_common_ponapi_init @ stage 1
+
+===============================================================
+Fiberhome PON Driver Software V1.0.0
+for 1U(FSL61292, FSL61292)
+===============================================================
+Linecard config file length = -1
+Warning: config file not found or incorrect.
+
+USER>Init XPON SDK CLI OK
+init fhdrv_switch_init stage 1 begin ...
+Npd_Api_Common_InitAll:enNpdProductType = 10 
+[S6][T:6440][M0][PI]sysNetMacNVAddrInit initialize.....ok
+
+Fem_Api_Common_Init begin...
+[S7][T:6440][M0][PI]Trying read file from flash......
+[S8][T:6440][M0][PI]read flash end.flashId=51,readbuf=0x7442f008,size=1048576,ret=-1
+[S9][T:6443][M0][PF]fhsp_device_patch_init initialize.....error (errno:-2)
+
+ Regist fsl61292 intr proc func !
+
+ DDR test in core 0 
+ PHY0 DMC0 ulDdr3Num U6005 3Step Check...Success 
+ PHY0 DMC0 ulDdr3Num U6007 3Step Check...Success 
+ PHY0 DMC1 ulDdr3Num U6008 3Step Check...Success 
+ PHY0 DMC1 ulDdr3Num U6006 3Step Check...Success 
+ PHY1 DMC0 ulDdr3Num U6012 3Step Check...Success 
+ PHY1 DMC0 ulDdr3Num U6009 3Step Check...Success 
+ PHY1 DMC1 ulDdr3Num U6010 3Step Check...Success 
+ PHY1 DMC1 ulDdr3Num U6011 3Step Check...Success
+
+Fem_Api_Common_Init SUCCESS.
+time=80
+chip:0
+
+2018&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&2018
+2018&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&2018
+switch_fsl_set_acl_for_4089:1337
+fsl_set_acl_for_4089_mac:279
+switch_fsl_set_acl_for_4091:1376
+fsl_set_acl_for_4091_mac:443
+init fhdrv_switch_init stage 1 end.
+
+Init PON chip phase 1......
+ulBoardType = 1
+ulBoardPortSpec = 16
+ulBoardMacSpec = 1
+ulCorePortSpec = 16
+ulCoreMacSpec = 1
+ulPortOnuSpec = 130
+ulPortLlidSpec = 128
+ulPortGponOnuSpec = 130
+ulPortXGponOnuSpec = 130
+ulEpon10G2GFlag = 0
+ulMpcpTaskPri = 10
+ulPloamTaskPri = 0
+ulRegTaskPri = 0
+ulAlarmTaskPri = 0
+ulAlarmMonitorTaskPri = 0
+ulDbaCheckTaskPri = 0
+ulUioTaskPri = 0
+ulQdmTaskPri = 0
+ xPon Drv Dfx Module Init Successfully!
+ GMAC Driver Kernel Open... success
+
+[68049 ms]sdk init start
+ GMAC Hard Reset initializing... 
+ FSL61292 sdk init ...
+ AccessMode 0
+ FSL61292 GMAC SDK init..........success
+
+XGMAC INIT ...... Success!
+ FSL61292 Chip0 Self Test ...successsuccess
+
+[69161 ms]sdk init end
+[69161 ms]xpondrv init start
+ MM initializing... Success 
+ XPON_PORT_MAC_TYPE [0] 
+
+Xpondrv dev uio initializing... Success
+Xpondrv dev kernel initializing... Success
+Qdm initializing... Success
+PLOAM initializing... Success
+REG initializing... Success
+Gpon Alarm initializing... Success
+[69336 ms]xpondrv init end
+
+-----------Init XPON SDK OK----------------------
+Init XEPON/GPON OAM/OMCI CPUTR channel id OK
+Init XGPON OMCI CPUTR channel id OK
+Enter fhdrv_pon_objects_init_stage_one
+invalid forbidden gem/flow/vlan range start 0
+Init PON forbidden gemport value(4032-4063)
+Enter fhdrv_pon_sdk_init_stage_one
+[S:2][T:7010][M:0][P:E]no registed module id 77
+Enter fhdrv_pon_device_init_stage_one
+Enter fhdrv_pon_event_init_stage_one
+Enter fhdrv_pon_olt_init_stage_one
+Enter fhdrv_pon_sla_init_stage_one
+Enter fhdrv_pon_scheduling_init_stage_one
+Enter fhdrv_pon_port_init_stage_one
+Enter fhdrv_pon_qos_init_stage_one
+Enter fhdrv_pon_packet_init_stage_one
+Enter fhdrv_pon_fdb_init_stage_one
+Enter fhdrv_pon_upgrade_init_stage_one
+Enter fhdrv_pon_stats_init_stage_one
+Enter fhdrv_pon_onu_init_stage_one
+Enter fhdrv_pon_crypto_init_stage_one
+Enter fhdrv_pon_vlan_init_stage_one
+Enter fhdrv_pon_multicast_init_stage_one
+Enter fhdrv_pon_psg_init_stage_one
+Enter fhdrv_pon_timesync_init_stage_one
+Init PON chip phase 1 end
+
+[fhdrv_olt_common_ponapi_init:294] Leave 
+[S:3][T:7010][M:0][P:I]fh_maple_init_stage1 initialize.....ok
+[S:4][T:7010][M:0][P:I]Can't open file /mnt/nor/io_redirect.cfg.
+ DRV_FlashConfig ............OK!(58M+6M)
+ [BSP][Flash] FLASH Init...
+OK!
+
+[S10][T:12427][M0][PI]ddInit initialize.....ok
+init ctc5120
+
+Use user-defined profile to initialize FTM 
+warmboot is not support!
+
+pbase is 0x20000000,base0 is 0x20000000 
+offset 0x48 is 0xff1234ff 
+dal_virt_base[0]: 0x76fd8000
+
+DMA pbase is 0xb9900000,base0 is 0xb9900000 
+Dma info, size: 0xc00000, phy_base_hi: 0x0, phy_base: 0xb9900000, pbase: 0xb9900000
+
+Dma info, virt_base: 0x7273e000
+id is 1000 
+lchip:0 gchip:0
+
+Lchip 0 Chip name: CTC5120, Device Id: 3, Version Id: 3 
+the traceState is 0x1245060
+SDK_WORK_PLATFORM:hardware platform 
+ local_chip_num:1 
+
+Packet To CPU by DMA!
+fdb hw learning enable
+ dev_id=0x3e8
+
+switch_ctc_port_pooling_init ok...loop-port:76 use for ETH TX packet!
+
+port: 0x10 mac 0
+port: 0x11 mac 0
+port: 0x12 mac 0
+port: 0x13 mac 0
+port: 0x30 mac 0
+port: 0x31 mac 0
+port: 0x32 mac 0
+port: 0x33 mac 0
+
+========Create CTC CLI========
+
+========Create CTC CLI End========
+
+init bcm53242
+switch init done
+Server is up and running ...
+[S11][T:13161][M0][PI]switch_init initialize.....ok
+start sql engine successful!
+keepalive_task : Successful
+listen_task : Successful
+async_commit_task : Successful[S12][T:13176][M1][PI][INFO] dbCommon_initDB_master: task test info end.
+[S13][T:13179][M0][PI]dbCommon_initDB initialize.....ok
+[S14][T:13181][M0][PI]mpuInit initialize.....ok
+[S15][T:13184][M0][PI]timerInit initialize.....ok
+[S16][T:13187][M0][PI]utTimerClockInit initialize.....ok
+[S17][T:13189][M0][PI]timeDateInit initialize.....ok
+[S18][T:13192][M0][PI]alarm_clock_init initialize.....ok
+ipcomx_start :: initializing usr lib task init priority 99 set on task ipcomx_tickd 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!System device 0 initialized.
+device 0 mac is 48:f9:7c:ea:6:4a.
+System device 1 initialized.
+device 1 mac is 48:f9:7c:ea:6:4a.
+SCUAgent start OK: port 3000 , ID 1863816352 
+dbg memset!
+dbg minm_hash_init!
+dbg manager!
+[S19][T:13696][M0][PI]Trying read file from flash......
+[S20][T:13696][M0][PI]read flash end.flashId=9,readbuf=0x42c2350,size=36144,ret=0
+version = 1.0
+createtime = Wed Mar 19 16:32:59 2014
+headrsize = 10240
+filesNum =19
+
+unCompress nbase config file TneProductTable_2.tlv,size 130
+unCompress nbase config file sckTable1.tlv,size 60
+unCompress nbase config file sckTable.tlv,size 74
+unCompress nbase config file rtmMjTable_1.tlv,size 88
+unCompress nbase config file rtmMjTable_000.tlv,size 88
+unCompress nbase config file rtmEntityTable_test.tlv,size 88
+unCompress nbase config file rtmEntityTable_000.tlv,size 74
+unCompress nbase config file ospfPmMjTable_.tlv,size 88
+unCompress nbase config file ospfPmEntTable_.tlv,size 81
+unCompress nbase config file ospfPmAreaTable_.tlv,size 81
+unCompress nbase config file ospfNmEntTable_.tlv,size 95
+unCompress nbase config file nbase.ini,size 22789
+unCompress nbase config file i3lTable.tlv,size 74
+unCompress nbase config file i3EmuTable.tlv,size 74
+unCompress nbase config file i3EmTable_.tlv,size 137
+unCompress nbase config file fhsicfg.ini,size 1002
+unCompress nbase config file fhsi.ini,size 712
+unCompress nbase config file fhCliTableGet.tlv,size 60
+unCompress nbase config file fhCliTablCreate.tlv,size 109
+ task init priority 5 set on task telnetThreadStart 
+
+SCUAgent start OK: port 2650 , ID 1846891680 
+[S21][T:13700][M0][PI]ipstack_drv_init initialize.....ok
+object manage initialize......ok
+[S22][T:13703][M0][PI]omInit initialize.....ok
+FP_QUALIFY_PACKETRES not support
+Error: switch_ctc_create_fp_rule line,3462
+acl create fp rule failed
+Error: switch_ctc_add_stream_item line,4389
+[switch_ctc_add_stream_item:4389]switch_ctc_create_fp_rule(unit, &fp_rule) ret=-1 HW operation fail 
+Error: switch_ctc_set_stream_qos_item line,4455
+[switch_ctc_set_stream_qos_item:4455]switch_ctc_add_stream_item( volt_id, unit, buf_stream, buf_stream_len, buf_act, buf_act_len, buf_bind, buf_bind_len, option, &entry) ret=-1 HW operation fail 
+Error: hw_driver_set_stream_qos_item line,1730
+rv=-1 Internal error
+
+Jan 01 1970 00:02:16.925|tRootMain|(null)|ERROR|hal_add_l3_qos_entry,hw_driver_set_stream_qos_item failed
+[S23][T:13705][M4][PE]hal_add_l3_qos_entry,hw_driver_set_stream_qos_item failed
+Jan 01 1970 00:02:16.926|tRootMain|(null)|ERROR|[hal_add_l3_acl_entry]:driver add qos enery error.
+[S24][T:13705][M4][PE][hal_add_l3_acl_entry]:driver add qos enery error.
+[S25][T:13708][M0][PI]hal_init initialize.....ok
+[S26][T:13712][M0][PI]nbase_create initialize.....ok
+enter protocol_module_init
+DHCP Module Init .........ok!
+
+[S27][T:13715][M0][PI]dhcpr_mod_init initialize.....ok
+rcal_comm_init::try to connect nbase ......
+rcal_comm_init::try to connect nbase ......
+rcal_comm_init::try to connect nbase ......
+lc Initialize the thread group CBs
+
+N-BASE: No thread group for proc type 0x01000000 configuredDC-SI Running...
+ epfd 0  gtmppid 0 getpid 1823904928 taskname nbase_main
+2epfd 0  gtmppid 0 getpid 1823904928 taskname nbase_main
+
+rcal_comm_init::try to connect nbase ......
+rcal_comm_init::try to connect nbase ......
+
+Initialize Products 
+ Start DC-SCK ...
+ Start FH-TNE ...
+ Start FH-CLI ...
+ Start I3LITE-STUB ...
+ Start FHLIM ...
+rcal_comm_init first recv finished::
+
+FH-CR8000#
+
+ Start global label space interface ...
+ Start DC-RTM ...
+ Start DC-OSPF ...
+ 
+Initialization End!
+ 
+system is running ...
+rcal_portswitch_init start...
+rcal_portswitch_init end...
+rcal_ip_routing_init start...
+rcal_ip_routing_init end...
+[S59][T:15975][M0][PI]rcal_data_init initialize.....ok
+[S60][T:15979][M0][PI]ipstack_debug_set initialize.....ok
+[S61][T:15994][M0][PI]fhsp_main_init initialize.....ok
+[S62][T:16001][M0][PI]comInit initialize.....ok
+[S63][T:16004][M0][PI]hss_main initialize.....ok
+current tty:/dev/ttyS0
+consoleFd 18.
+[S64][T:16009][M0][PI]cl_main_init initialize.....ok
+[S65][T:16012][M0][PI]initRegisterHookFuncArray initialize.....ok
+
+cs_read_csv err!!! Compiler environment err!!!
+cs_get_single_context line line_count row row_count(1 0 1 1)!
+cs_parse_csv_onu cs_get_single_context err!
+line row(1 1)
+
+cs_parse_csv_onu failed len1 = 0!
+cs_unhebin failed!
+cs_read_csv failed!
+[S66][T:16017][M0][PI]cs_module_init initialize.....ok
+[S67][T:16017][M0][PI]Trying read file from flash......
+[S68][T:16017][M0][PI]read flash end.flashId=8,readbuf=0x745aba64,size=12,ret=0
+[S69][T:16017][M11][PI]slot 9 detect card HSCP
+[S70][T:16020][M0][PI]caInit initialize.....ok
+[S71][T:16023][M0][PI]volt_module_init initialize.....ok
+[S72][T:16026][M0][PI]voltObjectInit initialize.....ok
+Error: hw_driver_set_port_work_mode line,807
+rv=-4 Invalid parameter
+Error: hw_driver_set_port_max_frame line,1274
+rv=-1 Internal error
+[S73][T:16078][M0][PI]uv_port_vlan_init initialize.....ok
+[S74][T:16081][M0][PI]br_CliInit initialize.....ok
+[S75][T:16084][M0][PI]init_version_control_module initialize.....ok
+[S76][T:16089][M15][PE][DEBUG] set_version_control_flag: the input name  does not exist.
+ssh_load_pub_key flash_read fail,ret = -1
+[S77][T:16093][M0][PI]cli_system_init initialize.....ok
+[S78][T:16095][M0][PI]hal_port_func_regist_init initialize.....ok
+[S79][T:16098][M0][PI]pdl_data_init initialize.....ok
+
+Max allow msg_qbytes is 16384!
+New Max allow msg_qbytes is 327680, 1024, 320, 8!
+For Linux no such type semaphore, default to MUTEX
+ @@@lldp_mod_init OK!
+
+[S80][T:16102][M0][PI]lldp_data_init initialize.....ok
+Max allow msg_qbytes is 16384!
+New Max allow msg_qbytes is 1310720, 4096, 320, 8!
+For Linux no such type semaphore, default to MUTEX
+ mstp_mod_init
+
+[S81][T:16105][M0][PI]hal_mstp_module_init initialize.....ok
+ rstp_mod_init !
+pthread_attr_setschedparam light failed, Error: 22, Invalid argument.
+[S82][T:16108][M0][PI]rstp_mod_init initialize.....ok
+[S83][T:16112][M0][PF]vxlan_arp_init initialize.....error (errno:3)
+lacp_data_init :---------->
+
+Max allow msg_qbytes is 16384!
+New Max allow msg_qbytes is 40960, 128, 320, 12!
+lacp_data_init: Success!  <----------
+[S84][T:16115][M0][PI]lacp_data_init initialize.....ok
+LACP task Spawn SUCESS at (161)
+[S85][T:16118][M0][PI]lacp_task_init initialize.....ok
+enter dhcp_snooping_init func. 
+[S86][T:16121][M0][PI]dhcp_snooping_init initialize.....ok
+[S87][T:16133][M0][PI]ns_device_init initialize.....ok
+!ospf module init -----------------------------------------
+
+db_create_ospf_enable ok..............
+db_create_ospf_router_id ok..............
+db_create_ospf_distance ok..............
+db_create_ospf_redistribute ok..............
+db_create_ospf_nssa_originate_always ok..............
+ospf_cli_init
+
+!ospf module init ok-----------------------------------------
+ns_create_arp_agint_time ok..............
+db_create_route_ecmp_switch ok..............
+rcal_route_cli_init
+[S88][T:16134][M6][PI]!rcal_mstp module init -----------------------------------------
+[S89][T:16134][M6][PI]mstp not exist,please first init mstp!
+[S90][T:16134][M6][PI]DB_create_mstp_enable ok..............
+[S91][T:16134][M6][PI]DB_create_region ok..............
+[S92][T:16134][M6][PI]DB_create_mstp_bridge ok..............
+[S93][T:16134][M6][PI]db_create_mstp_bridgepri ok..............
+[S94][T:16134][M6][PE]mstp_cli_init!
+[S95][T:16134][M6][PE]mstp_cli_init!
+[S96][T:16135][M6][PI]lacp not exist,please first init lacp!
+[S97][T:16135][M6][PI]db_create_lacp_switch ok..............
+[S98][T:16135][M6][PI]db_create_lacp_switch ok..............
+[S99][T:16135][M6][PI]db_create_lacp_preempt ok..............
+lacp_cli_init
+
+line_id_init : DB_create_line_id_config_byvoltid ok voltid<0>..............
+DB_create_lineid_formatbyvoltid ok voltid<0>............
+DB_create_remote_id_formatbyvoltid ok voltid<0>.........
+DB_create_line_id_config_byvoltid ok voltid<1>..............
+DB_create_lineid_formatbyvoltid ok voltid<1>............
+DB_create_remote_id_formatbyvoltid ok voltid<1>.........
+DB_create_line_id_config_byvoltid ok voltid<2>..............
+DB_create_lineid_formatbyvoltid ok voltid<2>............
+DB_create_remote_id_formatbyvoltid ok voltid<2>.........
+DB_create_line_id_config_byvoltid ok voltid<3>..............
+DB_create_lineid_formatbyvoltid ok voltid<3>............
+DB_create_remote_id_formatbyvoltid ok voltid<3>.........
+DB_create_line_id_config_byvoltid ok voltid<4>..............
+DB_create_lineid_formatbyvoltid ok voltid<4>............
+DB_create_remote_id_formatbyvoltid ok voltid<4>.........
+DB_create_line_id_config_byvoltid ok voltid<5>..............
+DB_create_lineid_formatbyvoltid ok voltid<5>............
+DB_create_remote_id_formatbyvoltid ok voltid<5>.........
+DB_create_line_id_config_byvoltid ok voltid<6>..............
+DB_create_lineid_formatbyvoltid ok voltid<6>............
+DB_create_remote_id_formatbyvoltid ok voltid<6>.........
+DB_create_line_id_config_byvoltid ok voltid<7>..............
+DB_create_lineid_formatbyvoltid ok voltid<7>............
+DB_create_remote_id_formatbyvoltid ok voltid<7>.........
+DB_create_line_id_config_byvoltid ok voltid<8>..............
+DB_create_lineid_formatbyvoltid ok voltid<8>............
+DB_create_remote_id_formatbyvoltid ok voltid<8>.........
+cl_line_id_module_init
+
+dhcp_init : DB_create_dhcp_arp_patch_switch ok..............
+DB_create_dhcp_optionbyvoltid ok voltid<0>..............
+DB_create_dhcp_optionbyvoltid ok voltid<1>..............
+DB_create_dhcp_optionbyvoltid ok voltid<2>..............
+DB_create_dhcp_optionbyvoltid ok voltid<3>..............
+DB_create_dhcp_optionbyvoltid ok voltid<4>..............
+DB_create_dhcp_optionbyvoltid ok voltid<5>..............
+DB_create_dhcp_optionbyvoltid ok voltid<6>..............
+DB_create_dhcp_optionbyvoltid ok voltid<7>..............
+DB_create_dhcp_optionbyvoltid ok voltid<8>..............
+cl_dhcp_module_init
+
+[ OK ]
+
+pppoe_plus_init
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<0>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<1>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<2>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<3>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<4>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<5>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<6>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<7>..............
+pppoe plus not exist,please first init pppoe plus!
+DB_create_pppoe_switchbyvoltid ok voltid<8>..............
+	Initializing PPPoE+ configuration...cl_pppoe_plus_module_init
+
+OK.
+cl_line_id_profile_module_init
+ [ OK ]
+dsnping_cli_init
+cmd 0x7811 already installed!
+db_create_radius_goble_client_addr ok..............
+radius cli installed ok !
+!dhcp module init -----------------------------------------
+[S145][T:16535][M6][PI]db_create_dhcp_switch ok..............
+!dhcp module init ok-----------------------------------------
+erps cli installed ok !
+[S146][T:16536][M6][PI]!rcal_lldp module init -----------------------------------------
+[S147][T:16536][M6][PI]db_create_lldp_globle_switch ok..............
+[S148][T:16536][M6][PI]db_create_lldp_time_para ok..............
+[S149][T:16537][M6][PE]lldp_cli_init!
+[S150][T:16537][M6][PE]rcal_simulation_cli_init!
+[S151][T:16540][M0][PI]rcal_cli_init initialize.....ok
+db_create_aaa_authen ok..............
+db_create_aaa_author ok..............
+db_create_aaa_account ok..............
+tacacs cli installed ok !
+
+[S152][T:16543][M0][PI]rcal_tacacs_module_init initialize.....ok
+[S153][T:16548][M0][PI]mscClientInit initialize.....ok
+[S154][T:16551][M0][PI]regLdModule initialize.....ok
+[S155][T:16554][M0][PI]env_mon_init initialize.....ok
+[S156][T:16556][M16][PI]Trying read file from flash......
+[S157][T:16558][M16][PI]read flash end.flashId=5,readbuf=0x64a85008,size=40530,ret=0
+[S158][T:16563][M0][PI]cli_log_init initialize.....ok
+[S159][T:16565][M0][PI]prfCommInit initialize.....ok
+prf_mgr_init, voltUpdObjRegFunc register ok.
+prf_mgr_init, volt_register_add_and_del_hook_func register ok.
+[S161][T:16569][M0][PI]prf_mgr_module_init initialize.....ok
+[S162][T:16573][M0][PI]flowRuleInit initialize.....ok
+[S163][T:16576][M0][PI]flowPolicyInit initialize.....ok
+[S164][T:16578][M0][PI]qosBindModInit initialize.....ok
+[S165][T:16581][M0][PI]qosBindSwModInit initialize.....ok
+[S166][T:16593][M0][PI]qosModInit initialize.....ok
+[S167][T:16593][M48][PE]rcSrvInit: Error: can not create send sock fd. 
+[S168][T:16596][M0][PI]regOltCapModule initialize.....ok
+[S169][T:16596][M16][PI]Trying read file from flash......
+[S170][T:16596][M16][PI]read flash end.flashId=7,readbuf=0x47f4ce8,size=100000,ret=-1
+[S171][T:16599][M0][PI]version_cfg_init initialize.....ok
+[S172][T:16602][M0][PI]oltComInit initialize.....ok
+[S173][T:16604][M0][PI]fhsp_802dot1x_init initialize.....ok
+[S174][T:16607][M0][PI]ddCmdInit initialize.....ok
+[S175][T:16610][M0][PI]ability_module_init initialize.....ok
+[S176][T:16613][M0][PI]InitHcu initialize.....ok
+[S177][T:16616][M0][PI]onu_qos_module_init initialize.....ok
+[S178][T:16619][M0][PI]otdr_Init initialize.....ok
+cmd 0x70f already installed!
+Init onu auth web interface.
+[S179][T:16707][M0][PI]initModule_OnuAuth initialize.....ok
+[S180][T:16711][M0][PI]pon_protect_module_init initialize.....ok
+[S181][T:16716][M0][PI]onu_cfg_module_init initialize.....ok
+init ngn web interface.
+[S182][T:16722][M0][PI]ngn_cfg_module_init initialize.....ok
+Init qinq module web interface.
+[S183][T:16725][M0][PI]qinq_module_init initialize.....ok
+[S184][T:16729][M0][PI]onu_data_module_init initialize.....ok
+Init onu wan web interface.
+[S185][T:16733][M0][PI]wan_model_init initialize.....ok
+Init onu wifi web interface.
+[S186][T:16736][M0][PI]wifi_model_init initialize.....ok
+Init onu veip web interface.
+[S187][T:16740][M0][PI]veip_cfg_module_init initialize.....ok
+dbacfg_Init_Module, voltUpdObjRegFunc register ok.
+dbacfg_Init_Module, volt_register_add_and_del_hook_func register ok.
+[S188][T:16747][M0][PI]dbacfg_Init_Module initialize.....ok
+[S189][T:16751][M0][PI]rms_module_init initialize.....ok
+[ConInit]: g_multicast_ip_range size = 5120.
+db_create_igmp_bandwidth ok..............
+db_create_igmp_vlan ok..............
+db_create_igmp_proxy_ip ok..............
+db_create_igmp_proxy_mode ok..............
+db_create_igmp_protocol_para ok..............
+db_create_igmp_version ok..............
+db_create_igmp_dynvlan ok..............
+db_create_igmp_ssmip ok..............
+db_create_igmp_qinq ok..............
+db_create_igmp_filter_switch ok..............
+db_create_multicast_uplink_port_mode ok..............
+[ConInit]: g_multicast_ip_range size = 46080.
+
+igmp_data_init Thread id : gettid() == 259.
+-->>IGMP semaphore creat ......1DONE!
+-->>IGMP  msgQ gMsgIgmp create ......
+Max allow msg_qbytes is 16384!
+
+New Max allow msg_qbytes is 1310720, 4096, 320, 28!
+0x28005DONE!
+===================>>IGMP PREPARE DONE.
+-->>IGMP create tIGMPv3 task......,pri = 55-->>IGMP create tIGMPclock task......,pri  = 55
+igmp_input_task Thread id : gettid() == 717.
+
+mld_data_init Thread id : gettid() == 259.
+g_sem_mld_mli = 1, DONE!
+
+igmp_timer_one_second Thread id : gettid() == 718.
+[MldParamsInit]: timer_start: 0xab.
+-->>MLD  msgQ mld_msgQ_id create ......
+Max allow msg_qbytes is 16384!
+
+New Max allow msg_qbytes is 1310720, 4096, 320, 140!
+mld_msgQ_id 0x30006 DONE!
+
+Success to create mld_api_main_task, 0x6431c4a0!
+mld_main_task Thread id : gettid() == 719.
+
+[mld_thread_fetch_task]: Begin...
+[S190][T:17156][M0][PI]ConInit initialize.....ok
+[S191][T:17160][M0][PI]dm_module_init initialize.....ok
+[S192][T:17163][M0][PI]cmd_fmInit initialize.....ok
+[S193][T:17167][M0][PI]Perform_Init initialize.....ok
+[S194][T:17170][M0][PI]polling_init initialize.....ok
+[S195][T:17173][M0][PI]hotplug_mod_init initialize.....ok
+[S196][T:17176][M0][PI]ntp_cfg_module_init initialize.....ok
+cmd 0x629 already installed!
+[S197][T:17184][M0][PI]devmgrModule_init initialize.....ok
+[S198][T:17188][M0][PI]Alarm_Init initialize.....ok
+[S199][T:17192][M0][PI]upgrade_module_init initialize.....ok
+[S200][T:17194][M0][PI]Cku_Init initialize.....ok
+FUNC:trapMsgHandleinit LINE 3413
+FUNC:trapMsgHandleinit LINE 3416 trapMsgQID = 43
+[S201][T:17205][M0][PI]snmp_main_start_data_init initialize.....ok
+[S202][T:17210][M0][PI]switch_cmd_init initialize.....ok
+[S203][T:17213][M0][PI]hss_state_recovery initialize.....ok
+[S204][T:17213][M3][PI]FUNC:CreateSystemObj create system obj
+[S205][T:17213][M3][PE]FUNC:CreateSystemObj-L8600 create system obj success
+[S206][T:17216][M0][PI]CreateSystemObj initialize.....ok
+Error: hw_driver_card_type_del line,779
+rv=-4 Invalid parameter
+Error: hw_driver_set_port_work_mode line,807
+rv=-4 Invalid parameter
+[S207][T:17216][M47][PI]Now flush S+C cfg... slot=9,action=1 
+[S211][T:17227][M11][PI]slot 19 detect card HU2P
+[S212][T:17230][M0][PI]caAuthMainBoard initialize.....ok
+ DRV_FlashConfig ............OK!(58M+6M)
+ [BSP][Flash] FLASH Init...[S213][T:17233][M0][PI]web_protocol_porxy_init initialize.....ok
+[S214][T:17237][M0][PI]web_ipc_server_init initialize.....ok
+[S216][T:17237][M16][PI]Trying read file from flash......
+[S217][T:17237][M16][PI]read flash end.flashId=4,readbuf=0x62135008,size=3277,ret=0
+
+zUnCompress = 0  inlen = 3272  destlen = 17618, new cli
+FAILED:(ret=-1)speed 10000m 
+ NGN CFG Version Check... OK! 
+DONE 
+FAILED:(ret=2)debug off
+[S220][T:17437][M16][PI]Trying read file from flash......
+[S221][T:17437][M16][PI]read flash end.flashId=13,readbuf=0x62135008,size=80,ret=0
+zUnCompress = 0  inlen = 75  destlen = 95, new cli
+[S224][T:17442][M0][PI]cl_load_startup_config initialize.....ok
+[S225][T:17445][M0][PI]set_master_lamp_act initialize.....ok
+[S226][T:17445][M0][PI]module data initialize...................................end
+[S227][T:17445][M0][PI]module initialize after config initialize................begin
+[S228][T:17445][M0][PI]module (dbCommon) initialize for phase (1).....ok
+[S229][T:17445][M0][PI]module (hss) initialize for phase (1).....ok
+[S230][T:17445][M0][PI]module (cli) initialize for phase (1).....ok
+[S231][T:17445][M0][PI]module (ngn) initialize for phase (1).....ok
+[S232][T:17445][M0][PI]module (onu_wan) initialize for phase (1).....ok
+[S237][T:17534][M0][PI]module (snmp) initialize for phase (1).....ok
+[S238][T:17535][M16][PI]Trying read file from flash......
+[S239][T:17535][M16][PI]read flash end.flashId=50,readbuf=0x61f59008,size=32,ret=0
+[S240][T:17536][M82][PE][Time]in:load_flash_initial_dbtable,time is:
+[S241][T:17536][M82][PE]Current Date is 2012-01-01
+[S242][T:17536][M82][PE]Current Time is 00:02:55
+[S243][T:17538][M16][PI]Trying read file from flash......
+[S244][T:17539][M16][PI]read flash end.flashId=50,readbuf=0x61f59008,size=32,ret=0
+[S245][T:17539][M82][PE][Time]out:load_flash_initial_dbtable,time is:
+[S246][T:17539][M82][PE]Current Date is 2012-01-01
+[S247][T:17539][M82][PE]Current Time is 00:02:55
+[S248][T:17539][M0][PI]module (snmpcrc) initialize for phase (1).....ok
+[S249][T:17539][M0][PI]module initialize after config initialize................end
+[S250][T:17539][M0][PI]task initialize..........................................begin
+
+############################################################
+#                                                          #
+#                                                          #
+#                                                          #
+#      Press Return to connect and config this system.     #
+#                                                          #
+############################################################
+
+Press <Enter> to come into this system.
+vxlan_arp_start::start vxlan_arp ok!![S259][T:17565][M0][PI]task initialize..........................................end
+[S260][T:17565][M0][PI]module initialize after task initialize..................begin
+[S261][T:17565][M0][PI]module (hss) initialize for phase (2).....ok
+[S262][T:17567][M0][PI]module (br_cli_snmp) initialize for phase (2).....ok
+[S263][T:17567][M0][PI]module (485) initialize for phase (2).....ok
+[S264][T:17567][M0][PI]module initialize after task initialize..................end
+[S265][T:17575][M37][PI]cmNotifyLinkState: slot 1 up
+[S268][T:17575][M37][PI]cmNotifyLinkState: slot 19 port 1 up
+[S270][T:17612][M11][PI]slot 1 detect card GPOP
+[S278][T:19939][M76][PI]**** Olt_init_finished 1 ****
+[S279][T:20551][M11][PI]slot 23 detect card FAN
+[S280][T:20551][M11][PI]slot 24 detect card PWRD
+
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zz       zzz  zzzzzzzzzzzzzzzzzzzzz  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zz  zzzzz  z  zzzzzzzzzzzzzzzzzzzzz  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zz  zzzzzzzz  zzzzzzzzzzzzzzzzzzzzz  zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zz      zzzz     zzzz     zz  zz  z      zzzz    zzzz   z  zzz     zzz
+zz  zzzzz  z  zz  zz  zzz  z  z  zz  zzz  zz  zz  zz  z  z  z  zzz  zz
+zz  zzzzz  z  zzz  z      zz   zzzz  zzz  z  zzzz  z  z  z  z      zzz
+zz  zzzzz  z  zz  zz  zzzzzz  zzzzz  zzz  zz  zz  zz  z  z  z  zzzzzzz
+zz  zzzzz  z     zzzz      z  zzzzz  zzz  zzz    zzz  z  z  zz      zz
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+
+Login: GEPON
+
+Password: *****
+
+User> 
+User> ena
+Password: *****
+
+G16-Capacita# 
+G16-Capacita# 
+G16-Capacita# 
+
