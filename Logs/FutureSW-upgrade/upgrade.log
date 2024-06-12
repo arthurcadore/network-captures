@@ -1,0 +1,219 @@
+******************************************************************************
+* Copyright (C) 2023 Intelbras S.A. All rights reserved.                     *
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+%Jun 12 10:44:07:198 2024 ITB SC5530 SHELL/5/SHELL_LOGIN: Console logged in from con0.
+
+<ITB SC5530>
+<ITB SC5530>sys
+System View: return to User View with Ctrl+Z.
+[ITB SC5530]dospl
+[ITB SC5530]displ
+[ITB SC5530]display ver
+[ITB SC5530]display version
+INTELBRAS Switch Software, Version 7.1.070, Alpha 8307P01
+Copyright (C) 2023 Intelbras S.A. All rights reserved.
+INTELBRAS SC 5530-24Y-8H uptime is 0 weeks, 0 days, 0 hours, 11 minutes
+Last reboot reason : USER reboot
+
+Boot image: flash:/sc5530-ibos710-boot-a8307p01.bin
+Boot image version: 7.1.070, Alpha 8307P01
+  Compiled Jul 22 2023 11:00:00
+System image: flash:/sc5530-ibos710-system-a8307p01.bin
+System image version: 7.1.070, Alpha 8307P01
+  Compiled Jul 22 2023 11:00:00
+Feature image(s) list:
+  flash:/sc5530-ibos710-freeradius-a8307p01.bin, version: 7.1.070, Alpha 8307P01
+    Compiled Jul 22 2023 11:00:00
+
+
+Slot 1:
+Uptime is 0 weeks,0 days,0 hours,11 minutes
+BOARD TYPE:         SC 5530-24Y-8H
+PCB Version:        VER.A
+CPLD 1 Version:     001
+CPLD 2 Version:     001
+Power CPLD Version: None
+[ITB SC5530]
+[ITB SC5530]
+[ITB SC5530]ftp
+[ITB SC5530]
+<ITB SC5530>%Jun 12 10:44:23:739 2024 ITB SC5530 CFGMAN/5/CFGMAN_EXIT_FROM_CONFIGURE: -Line=con0-IPAddr=**-User=**; Exit from the system view or a feature view to the user view.
+
+<ITB SC5530>ftp
+<ITB SC5530>ftp 10.100.65.173
+Press CTRL+C to abort.
+Connected to 10.100.65.173 (10.100.65.173).
+220-FileZilla Server 1.8.2
+220 Please visit https://filezilla-project.org/
+User (10.100.65.173:(none)): itb
+331 Please, specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+ftp>
+ftp>
+ftp> get
+(remote-file) SC5530-IBOS710-D8309P01.ipe
+(local-file) SC5530-IBOS710-D8309P01.ipe
+227 Entering Passive Mode (10,100,65,173,142,192)
+150 Starting data transfer.
+.....................................................................................................................                                                                                                                        ......................................
+226 Operation successful
+81779712 bytes received in 9.474 seconds (8.23 Mbytes/s)
+ftp> quit
+221 Goodbye.
+<ITB SC5530>
+<ITB SC5530>
+<ITB SC5530>boo
+<ITB SC5530>boot-
+<ITB SC5530>boot-loader ?
+  file    Specify upgrade image files
+  update  Update startup software images
+
+<ITB SC5530>boot-loader f
+<ITB SC5530>boot-loader file SC5530-IBOS710-D8309P01.ipe ?
+                                   ^
+ % Wrong parameter found at '^' position.
+<ITB SC5530>boot-loader file ?
+  boot          Specify a boot image file
+  flash:        Device name
+  slot1#flash:  Device name
+
+<ITB SC5530>boot-loader file f
+<ITB SC5530>boot-loader file flash:/SC5530-IBOS710-D8309P01.ipe ?
+  all    Set the startup software image for all the slot
+  patch  Specify patch package files
+  slot   Specify the slot
+
+<ITB SC5530>boot-loader file flash:/SC5530-IBOS710-D8309P01.ipe all ?
+  backup  Specify the packages as the backup startup software images
+  main    Specify the packages as the main startup software images
+
+<ITB SC5530>boot-loader file flash:/SC5530-IBOS710-D8309P01.ipe all ma
+<ITB SC5530>boot-loader file flash:/SC5530-IBOS710-D8309P01.ipe all main
+Verifying the file flash:/SC5530-IBOS710-D8309P01.ipe on slot 1...Done.
+INTELBRAS SC 5530-24Y-8H images in IPE:
+  sc5530-ibos710-boot-d8309p01.bin
+  sc5530-ibos710-system-d8309p01.bin
+  sc5530-ibos710-freeradius-d8309p01.bin
+This command will set the main startup software images. Continue? [Y/N]:y
+Add images to slot 1.
+File flash:/sc5530-ibos710-boot-d8309p01.bin already exists on slot 1.
+File flash:/sc5530-ibos710-system-d8309p01.bin already exists on slot 1.
+File flash:/sc5530-ibos710-freeradius-d8309p01.bin already exists on slot 1.
+Overwrite the existing files? [Y/N]:y
+Decompressing file sc5530-ibos710-boot-d8309p01.bin to flash:/sc5530-ibos710-boot-d8309p01.bin...Done.
+Decompressing file sc5530-ibos710-system-d8309p01.bin to flash:/sc5530-ibos710-system-d8309p01.bin...Done.
+Decompressing file sc5530-ibos710-freeradius-d8309p01.bin to flash:/sc5530-ibos710-freeradius-d8309p01.bin...Done.
+Verifying the file flash:/sc5530-ibos710-boot-d8309p01.bin on slot 1...Done.
+Verifying the file flash:/sc5530-ibos710-system-d8309p01.bin on slot 1...Done.
+Verifying the file flash:/sc5530-ibos710-freeradius-d8309p01.bin on slot 1...Done.
+The images that have passed all examinations will be used as the main startup software images at the next reboot on s                                                                                                                        lot 1.
+Decompression completed.
+Do you want to delete flash:/SC5530-IBOS710-D8309P01.ipe now? [Y/N]:y
+<ITB SC5530>%Jun 12 10:46:14:822 2024 ITB SC5530 PKG/5/PKG_BOOTLOADER_FILE_SUCCESS: -IPAddr=**-User=**: Executed the boot-loader file command successfully
+
+<ITB SC5530>
+<ITB SC5530>
+<ITB SC5530>reboot
+Start to check configuration with next startup configuration file, please wait.........DONE!
+This command will reboot the device. Continue? [Y/N]:y
+Now rebooting, please wait....%Jun 12 10:47:21:635 2024 ITB SC5530 DEV/5/SYSTEM_REBOOT: System is rebooting now.
+..
+Starting......
+Press Ctrl+D to access BASIC BOOT MENU
+Press Ctrl+T to access BOOTWARE DIAG-TEST MENU
+
+********************************************************************************
+*                                                                              *
+*                             BOOTROM, Version 108                             *
+*                                                                              *
+********************************************************************************
+Creation Date         : Sep  5 2023
+Memory Type           : DDR4 SDRAM
+Memory Size           : 4096MB
+Memory Speed          : 1200MHz
+flash Size            : 3776MB
+CPLD 1 Version        : 001
+CPLD 2 Version        : 001
+CPLD 3 Version        : 001
+PCB 1 Version         : Ver.A
+PCB 2 Version         : Ver.A
+Mac Address           : 54c6ffaaffc0
+
+
+Press Ctrl+B to access EXTENDED BOOT MENU...0
+Loading the main image files...
+Loading file flash:/sc5530-ibos710-system-d8309p01.bin......Done.
+Loading file flash:/sc5530-ibos710-freeradius-d8309p01.bin.......Done.
+Loading file flash:/sc5530-ibos710-boot-d8309p01.bin...........Done.
+
+Image file flash:/sc5530-ibos710-boot-d8309p01.bin is self-decompressing.....
+Done.
+System is starting...
+
+
+            Board checking.......................LSW1LTSUQ
+            SDRAM fast selftest........................OK!
+            Flash fast selftest........................OK!
+            CPLD selftest..............................OK!
+            Switch chip selftest.......................OK!
+            PHY selftest...............................OK!
+            Please check leds....................FINISHED!
+Cryptographic algorithms tests passed.
+Line con0 is available.
+
+
+Press ENTER to get started.
+******************************************************************************
+* Copyright (C) 2023 Intelbras S.A. All rights reserved.                     *
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+
+<ITB SC5530>%Jun 12 10:49:38:721 2024 ITB SC5530 SHELL/5/SHELL_LOGIN: Console logged in from con0.
+
+<ITB SC5530>
+<ITB SC5530>sys
+System View: return to User View with Ctrl+Z.
+[ITB SC5530]displ
+[ITB SC5530]display ver
+[ITB SC5530]display version
+INTELBRAS OS Software, Version 7.1.070, Demo 8309P01
+Copyright (C) 2023 Intelbras S.A. All rights reserved.
+INTELBRAS SC 5530-24Y-8H uptime is 0 weeks, 0 days, 0 hours, 2 minutes
+Last reboot reason : USER reboot
+
+Boot image: flash:/sc5530-ibos710-boot-d8309p01.bin
+Boot image version: 7.1.070, Demo 8309P01
+  Compiled Jul 22 2023 11:00:00
+System image: flash:/sc5530-ibos710-system-d8309p01.bin
+System image version: 7.1.070, Demo 8309P01
+  Compiled Jul 22 2023 11:00:00
+Feature image(s) list:
+  flash:/sc5530-ibos710-freeradius-d8309p01.bin, version: 7.1.070, Demo 8309P01
+    Compiled Jul 22 2023 11:00:00
+
+
+Slot 1:
+Uptime is 0 weeks,0 days,0 hours,2 minutes
+BOARD TYPE:         SC 5530-24Y-8H
+PCB Version:        VER.A
+CPLD 1 Version:     001
+CPLD 2 Version:     001
+Power CPLD Version: None
+PowChip Version:    None
+CpuCard
+    BuckleType:              LSW1CPUDTG
+    BuckleDRAM Size:         4096M bytes
+    BuckleFLASH Size:        3736M bytes
+    BucklePcb Version:       VER.A
+    BuckleCPLD 1 Version:    001
+    BuckleBootrom Version:   108
+    BucklePowChip Version:   NONE
+Release Version:    INTELBRAS SC 5530-24Y-8H-8309P01
+Patch Version:      None
+Reboot Cause:       UserReboot
+[SubSlot 0] 24SFP28+8QSFP28
