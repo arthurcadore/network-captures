@@ -1,0 +1,81 @@
+<intelbras>reset saved-configuration
+The saved configuration file will be erased. Are you sure? [Y/N]:y
+Configuration file in flash: is being cleared.
+Please wait ...
+MainBoard:
+Configuration file is cleared.
+<intelbras>rebo
+<intelbras>reboot
+Start to check configuration with next startup configuration file, please wait.........DONE!
+Current configuration may be lost after the reboot, save current configuration? [Y/N]:n
+This command will reboot the device. Continue? [Y/N]:y
+Now rebooting, please wait....%Jan  1 00:03:18:501 2021 intelbras SYSLOG/5/LOGFILE_USAGEHIGH: The usage of log-file flash:/logfile/logfile.log reaches 80%.
+%Jan  1 00:03:18:705 2021 intelbras DEV/5/SYSTEM_REBOOT: System is rebooting now.
+..
+
+Starting......
+Press Ctrl+D to access BASIC BOOT MENU
+Press Ctrl+T to access BOOTWARE DIAG-TEST MENU
+
+********************************************************************************
+*                                                                              *
+*                   H3C S6520X-54HF-EI BOOTROM, Version 105                    *
+*                                                                              *
+********************************************************************************
+Copyright (c) 2004-2022 New H3C Technologies Co., Ltd.
+
+Creation Date         : Dec 22 2022
+Memory Type           : DDR4 SDRAM
+Memory Size           : 4096MB
+Memory Speed          : 1200MHz
+CPLD 1 Version        : 003
+CPLD 2 Version        : 003
+PCB Version           : Ver.A
+Mac Address           : 1484770ea288
+
+
+Press Ctrl+B to access EXTENDED BOOT MENU...0
+Loading the main image files...
+Loading file flash:/s6520x_hf-cmw710-system-r6652p02.bin........................
+....................................................Done.
+Loading file flash:/s6520x_hf-cmw710-freeradius-r6652p02.bin...Done.
+Loading file flash:/s6520x_hf-cmw710-boot-r6652p02.bin............Done.
+
+Image file flash:/s6520x_hf-cmw710-boot-r6652p02.bin is self-decompressing.....
+Done.
+System is starting...
+Cryptographic algorithms tests passed.
+
+Startup configuration file doesn't exist or is invalid.
+Performing automatic configuration... Press CTRL_C or CTRL_D to break.
+
+Automatic configuration attempt: 1.
+Interface used: Vlan-interface1.
+Enable DHCP client on Vlan-interface1.
+Set DHCP client identifier: 1484770ea288-VLAN0001
+Obtained an IP address for Vlan-interface1: 192.168.103.101.
+Obtained configuration file name intelbras.cfg and TFTP server IP address 192.168.103.50.
+Successfully downloaded file intelbras.cfg.
+Executing the configuration file. Please wait...
+Automatic configuration successfully completed.
+Line aux0 is available.
+
+
+Press ENTER to get started.
+******************************************************************************
+* Copyright (c) 2004-2023 New H3C Technologies Co., Ltd. All rights reserved.*
+* Without the owner's prior written consent,                                 *
+* no decompiling or reverse-engineering shall be allowed.                    *
+******************************************************************************
+
+%Jan  1 00:01:24:506 2021 DeviceZTP SHELL/5/SHELL_LOGIN: TTY logged in from aux0.
+<DeviceZTP>
+<DeviceZTP>
+<DeviceZTP>%Jan  1 00:01:48:940 2021 DeviceZTP LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port Ten-GigabitEthernet1/0/1 (IfIndex 1), neighbor's chassis ID is 0855-31a2-203f, port ID is vlan103.
+%Jan  1 00:01:50:945 2021 DeviceZTP DRVPLAT/4/DRVPLAT_DrvDebug:
+ ALARM:The airflow direction of The two Power Fan is Different  on slot 1  ,please check it.
+%Jan  1 00:02:51:010 2021 DeviceZTP DRVPLAT/4/DRVPLAT_DrvDebug:
+ ALARM:The airflow direction of The two Power Fan is Different  on slot 1  ,please check it.
+%Jan  1 00:03:51:107 2021 DeviceZTP DRVPLAT/4/DRVPLAT_DrvDebug:
+ ALARM:The airflow direction of The two Power Fan is Different  on slot 1  ,please check it.
+
