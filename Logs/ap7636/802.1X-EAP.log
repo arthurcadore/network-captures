@@ -1,0 +1,109 @@
+*Jul  9 18:05:15:778 2024 AP7636 STAMGR/7/Event: Radio cipher suite bitmap: 127
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: Initialized security information in BSS 7c7a-3c15-dec0.
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: [APID: 1, Radio ID: 3, BSSID: 7c7a-3c15-dec0] Initialized PMF information in BSS.
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: [APID: 1] Initialized WUAC information in BSS 7c7a-3c15-dec0 successfully.
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: BSS 7c7a-3c15-dec0 inherited security information from service template ap7636-radius-arthur.
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: Inherited PMF information for BSS 7c7a-3c15-dec0 from service template ap7636-radius-arthur.
+*Jul  9 18:05:15:780 2024 AP7636 STAMGR/7/Event: [APID: 1] BSS 7c7a-3c15-dec0 inherited WUAC information from service template ap7636-radius-arthur.
+%Jul  9 18:05:16:034 2024 AP7636 STAMGR/6/SERVICE_ON: BSS 7c7a-3c15-dec0 was created after service template ap7636-radius-arthur with SSID AP7636-RADIUS-ARTHUR was bound to radio 3 on AP fatap.
+*Jul  9 18:05:16:037 2024 AP7636 STAMGR/7/Event: Radio cipher suite bitmap: 127
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: Initialized security information in BSS 7c7a-3c15-dea2.
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: [APID: 1, Radio ID: 1, BSSID: 7c7a-3c15-dea2] Initialized PMF information in BSS.
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: [APID: 1] Initialized WUAC information in BSS 7c7a-3c15-dea2 successfully.
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: BSS 7c7a-3c15-dea2 inherited security information from service template ap7636-radius-arthur.
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: Inherited PMF information for BSS 7c7a-3c15-dea2 from service template ap7636-radius-arthur.
+*Jul  9 18:05:16:038 2024 AP7636 STAMGR/7/Event: [APID: 1] BSS 7c7a-3c15-dea2 inherited WUAC information from service template ap7636-radius-arthur.
+%Jul  9 18:05:16:117 2024 AP7636 STAMGR/6/SERVICE_ON: BSS 7c7a-3c15-dea2 was created after service template ap7636-radius-arthur with SSID AP7636-RADIUS-ARTHUR was bound to radio 1 on AP fatap.
+*Jul  9 18:05:16:119 2024 AP7636 STAMGR/7/Event: Radio cipher suite bitmap: 127
+*Jul  9 18:05:16:120 2024 AP7636 STAMGR/7/Event: Initialized security information in BSS 7c7a-3c15-deb1.
+*Jul  9 18:05:16:120 2024 AP7636 STAMGR/7/Event: [APID: 1, Radio ID: 2, BSSID: 7c7a-3c15-deb1] Initialized PMF information in BSS.
+*Jul  9 18:05:16:120 2024 AP7636 STAMGR/7/Event: [APID: 1] Initialized WUAC information in BSS 7c7a-3c15-deb1 successfully.
+*Jul  9 18:05:16:120 2024 AP7636 STAMGR/7/Event: BSS 7c7a-3c15-deb1 inherited security information from service template ap7636-radius-arthur.
+*Jul  9 18:05:16:121 2024 AP7636 STAMGR/7/Event: Inherited PMF information for BSS 7c7a-3c15-deb1 from service template ap7636-radius-arthur.
+*Jul  9 18:05:16:121 2024 AP7636 STAMGR/7/Event: [APID: 1] BSS 7c7a-3c15-deb1 inherited WUAC information from service template ap7636-radius-arthur.
+%Jul  9 18:05:16:195 2024 AP7636 STAMGR/6/SERVICE_ON: BSS 7c7a-3c15-deb1 was created after service template ap7636-radius-arthur with SSID AP7636-RADIUS-ARTHUR was bound to radio 2 on AP fatap.
+*Jul  9 18:06:41:940 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Initialized security information in the client.
+*Jul  9 18:06:41:940 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, APID: 1, Radio ID: 2, BSSID: 7c7a-3c15-deb1] Initialized PMF information in client.
+*Jul  9 18:06:41:943 2024 AP7636 STAMGR/7/Event: Allowed client 2602-0c9b-e601 to access: MAC address is neither in the static nor the dynamic blacklist.
+*Jul  9 18:06:41:943 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Selected unicast cipher suite 4 for the client.
+*Jul  9 18:06:41:943 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Selected AKM mode 1 for the client.
+*Jul  9 18:06:41:943 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Processed the (re)association request with RSN IE successfully.
+*Jul  9 18:06:41:944 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:41:944 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:41:945 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started user authentication.
+*Jul  9 18:06:41:945 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started L2 authentication.
+%Jul  9 18:06:42:108 2024 AP7636 DOT1X/6/DOT1X_WLAN_LOGIN_SUCC: -Username=arthur.cadore-UserMAC=2602-0c9b-e601-BSSID=7c7a-3c15-deb1-SSID=AP7636-RADIUS-ARTHUR-APName=fatap-RadioID=2-VLANID=1; A user passed 802.1X authentication and came online.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started processing L2 authentication: Result=0, Authentication status=1.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Notify wroam PMK
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started key negotiation: Key negotiation status=1, security mode=2.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/FSM: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]4-way handshake FSM changed state from NULL to IDLE.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/FSM: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Group handshake FSM changed state from NULL to GKHS_IDLE.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/PktSend: Sent an EAPOL-Key frame to client 2602-0c9b-e601 (Length=155)
+ 88 02 00 7F 26 02 0C 9B E6 01 7C 7A 3C 15 DE B1
+ 7C 7A 3C 15 DE B1 00 00 07 00 AA AA 03 00 00 00
+ 88 8E 01 03 00 75 02 00 8A 00 10 00 00 00 00 00
+ 00 00 00 2D C6 7F 9E AF BF C5 91 69 D6 BA FC 6D
+ B7 66 29 16 F8 06 FD 11 8D 48 2A 1E 9C 4F 7D BF
+ B6 80 D1 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 16 DD 14 00 0F AC 04 B8 4E 02 21 92
+ 3A BE E5 F4 3B 89 85 69 C8 99 1C
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/PktSend: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Sent a 4-way handshake message 1.
+*Jul  9 18:06:42:109 2024 AP7636 STAMGR/7/Timer: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Created timer 14 for resending 4-way handshake message 1.
+*Jul  9 18:06:42:110 2024 AP7636 STAMGR/7/FSM: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]4-way handshake FSM changed state from IDLE to WAITMSG2.
+*Jul  9 18:06:42:110 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started processing L2 authorization: VLANID=1.
+*Jul  9 18:06:42:114 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:42:115 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:42:115 2024 AP7636 STAMGR/7/PktRcv: Received an EAPOL-Key frame from client 2602-0c9b-e601 (Length=135)
+ 7C 7A 3C 15 DE B1 26 02 0C 9B E6 01 88 8E 01 03
+ 00 75 02 01 0A 00 00 00 00 00 00 00 00 00 00 51
+ 52 D4 BA F1 5C 8A 39 B5 88 BE AB 70 EF A9 E1 AC
+ A6 A9 EF DF 78 E7 C1 77 0A A7 CC 8F C6 CC A1 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 D2
+ F7 8F 80 F3 21 DA ED ED F0 06 F9 95 A6 DC B1 00
+ 16 30 14 01 00 00 0F AC 02 01 00 00 0F AC 04 01
+ 00 00 0F AC 01 80 00
+*Jul  9 18:06:42:115 2024 AP7636 STAMGR/7/PktRcv: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Received a 4-way handshake message 2.
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/Timer: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Deleted timer 14 for resending 4-way handshake message 1.
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Processed 4-way handshake message 2 successfully.
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/PktSend: Sent an EAPOL-Key frame to client 2602-0c9b-e601 (Length=213)
+ 88 02 00 7F 26 02 0C 9B E6 01 7C 7A 3C 15 DE B1
+ 7C 7A 3C 15 DE B1 00 00 07 00 AA AA 03 00 00 00
+ 88 8E 01 03 00 AF 02 13 CA 00 10 00 00 00 00 00
+ 00 00 01 2D C6 7F 9E AF BF C5 91 69 D6 BA FC 6D
+ B7 66 29 16 F8 06 FD 11 8D 48 2A 1E 9C 4F 7D BF
+ B6 80 D1 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 1F CE 19 3A A1 F1 4D 1D B4 AB B4 A5 CE
+ 38 E5 F2 00 50 59 C9 7B 6E D7 F3 3B E7 B0 E8 49
+ D2 F7 7F F4 8D 57 7A B1 51 B1 A0 A3 54 2D 5A 08
+ DB CE E5 8E 00 78 E7 DF D0 C4 4C 8D 89 D6 E4 36
+ 03 DF 9D 3B 85 5E 73 79 AA 1E 67 13 56 DB 5F 5C
+ FF 49 6F 92 3F 37 CE 5F 5C E4 D0 FE 19 50 52 52
+ F2 31 12 85 F1
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/PktSend: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Sent a 4-way handshake message 3.
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/Timer: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Created timer 14 for resending 4-way handshake message 3.
+*Jul  9 18:06:42:116 2024 AP7636 STAMGR/7/FSM: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]4-way handshake FSM changed state from WAITMSG2 to WAITMSG4.
+*Jul  9 18:06:42:119 2024 AP7636 STAMGR/7/PktRcv: Received an EAPOL-Key frame from client 2602-0c9b-e601 (Length=113)
+ 7C 7A 3C 15 DE B1 26 02 0C 9B E6 01 88 8E 01 03
+ 00 5F 02 03 0A 00 00 00 00 00 00 00 00 00 01 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6F
+ 83 5A 08 7F 20 81 6F E3 9D F0 AE 5F 56 F1 A3 00
+ 00
+*Jul  9 18:06:42:119 2024 AP7636 STAMGR/7/PktRcv: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Received a 4-way handshake massage 4.
+*Jul  9 18:06:42:119 2024 AP7636 STAMGR/7/Timer: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Deleted timer 14 for resending 4-way handshake message 3.
+*Jul  9 18:06:42:119 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Processed 4-way handshake message 4 successfully.
+*Jul  9 18:06:42:120 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:42:120 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Filled security information in the add mobile message successfully.
+*Jul  9 18:06:42:120 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Successfully sent the add mobile message for synchronizing PTK to the AP.
+*Jul  9 18:06:42:120 2024 AP7636 STAMGR/7/Event: BSS 7c7a-3c15-deb1 successfully sent the update WLAN message for synchronizing GTK to the AP.
+*Jul  9 18:06:42:121 2024 AP7636 STAMGR/7/FSM: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]4-way handshake FSM changed state from WAITMSG4 to DONE.
+*Jul  9 18:06:42:121 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Started processing key negotiation: Result=success.
+*Jul  9 18:06:42:121 2024 AP7636 STAMGR/7/Event: [MAC: 2602-0c9b-e601, BSSID: 7c7a-3c15-deb1]Finished user authentication: Result=success.
+%Jul  9 18:06:42:121 2024 AP7636 STAMGR/6/STAMGR_CLIENT_ONLINE: Client 2602-0c9b-e601 went online from BSS 7c7a-3c15-deb1 vlan 1 with SSID AP7636-RADIUS-ARTHUR on AP fatap Radio ID 2. State changed to Run.
+%Jul  9 18:06:42:812 2024 AP7636 STAMGR/6/STAMGR_CLIENT_SNOOPING: Detected client IP change: Client MAC: 2602-0c9b-e601, IP: 10.100.65.190, -NA-, -NA-, -NA-, Username: arthur.cadore, AP name: fatap, Radio ID: 2, Channel number: 100, SSID: AP7636-RADIUS-ARTHUR, BSSID: 7c7a-3c15-deb1.
